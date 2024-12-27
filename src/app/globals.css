@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body, .home-page {
+  margin-top: 0 !important;
+}
