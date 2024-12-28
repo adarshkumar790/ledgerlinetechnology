@@ -53,65 +53,62 @@ const TestimonialSlider: React.FC = () => {
         Client Testimonials
       </h2>
       <div className="w-20 h-1 bg-gray-500 mx-auto"></div>
-      <div className="flex justify-center items-center space-x-6 max-w-5xl mx-auto relative mt-20">
-      
+      <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center space-y-6 lg:space-y-0 lg:space-x-6 max-w-5xl mx-auto relative mt-20">
+        {/* Left Navigation Arrow */}
         <button
           onClick={handlePrev}
-          className="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center mr-10 shadow-md z-10"
+          className="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center shadow-md z-10 lg:mr-10"
         >
           <FaArrowLeft />
         </button>
 
-        
+        {/* Testimonial Content */}
         <div
-          className="bg-[#FFFFFF] text-black p-10 shadow-lg max-w-3xl h-80 relative flex flex-col items-center justify-center"
+          className="bg-white text-black p-10 shadow-lg max-w-full lg:max-w-3xl h-auto lg:h-80 relative flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-y-0 lg:space-x-6"
         >
-          <div className="absolute top-[-30px] left-[-40px] z-5 w-[220px] h-[220px] flex flex-col items-center">
-            
-            <div className="bg-[#717171] rounded-xl p-6 flex flex-col items-center w-[200px] h-[220px] text-left shadow-lg">
-              <div
-                className="w-24 h-24 rounded-full overflow-hidden border-4 border-[#FFFFFF] shadow-[0_4px_10px_rgba(255,255,255,1)] mb-4"
-              >
+          {/* User Information */}
+          <div className="w-full lg:w-auto flex justify-center lg:block">
+            <div className="bg-gray-700 rounded-xl p-6 shadow-lg w-[200px] h-[220px]">
+              <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-md mb-4 mx-auto">
                 <img
                   src={currentTestimonial.image}
                   alt={currentTestimonial.name}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-md text-white font-bold text-center">
+              <h3 className="text-md text-white font-bold text-center lg:text-left">
                 {currentTestimonial.name}
               </h3>
-              <p className="text-white text-sm text-center mt-1">
+              <p className="text-sm text-white text-center lg:text-left mt-1">
                 {currentTestimonial.role || "Role Not Provided"}
               </p>
             </div>
           </div>
 
-          
-          <p className="text-lg font-light italic  text-left pl-40">
-  <span className="text-3xl font-serif">"</span>
-  <span className="text-[#000000] ml-4">{currentTestimonial.text}</span>
-  <span className="text-3xl font-serif">"</span>
-</p>
+          {/* Testimonial Text */}
+          <p className="text-sm sm:text-lg font-light italic text-center lg:text-left">
+            <span className="text-2xl sm:text-3xl font-serif">"</span>
+            <span className="text-black ml-2">{currentTestimonial.text}</span>
+            <span className="text-2xl sm:text-3xl font-serif">"</span>
+          </p>
 
-
-        
-          <div className="flex justify-center space-x-2 mt-4 absolute bottom-4 w-full">
+          {/* Pagination Dots */}
+          <div className="flex justify-center space-x-2 mt-4 absolute bottom-4 lg:bottom-[-40px] w-full">
             {testimonials.map((_, index) => (
               <div
                 key={index}
                 className={`w-3 h-3 rounded-full ${
-                  index === currentIndex ? "bg-[#83868A]" : "bg-[#83868A]"
+                  index === currentIndex ? "bg-black" : "bg-gray-400"
                 }`}
               ></div>
             ))}
           </div>
         </div>
 
-    
+        {/* Right Navigation Arrow */}
         <button
           onClick={handleNext}
-          className="w-10 h-10 text-black bg-white rounded-full flex items-center justify-center shadow-md z-10 ml-40"
+          className="w-10 h-10 text-black bg-white rounded-full flex items-center justify-center shadow-md z-10 lg:ml-40"
         >
           <FaArrowRight />
         </button>

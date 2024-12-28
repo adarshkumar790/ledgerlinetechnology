@@ -1,3 +1,4 @@
+"use client";
 import Achievement from '@/components/Home/Achievment';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
@@ -12,29 +13,29 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div 
-        className="h-screen bg-black bg-cover bg-center bg-no-repeat"
+      <div
+        className="h-[70vh] bg-black bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/ledgerlinelogo.png')",
         }}
       >
         <main className="flex items-center justify-center h-full">
-          <div className="relative w-full h-64 overflow-hidden">
-            <div className="absolute inset-0"></div>
+          <div className="relative w-full h-full overflow-hidden">
+            <div className="absolute inset-0">
+              {/* Additional responsive content can go here */}
+            </div>
           </div>
         </main>
       </div>
-      
       <Services />
       <Achievement />
       <Technologies />
       <CompanyPartners />
       <TestimonialSlider />
-      <TeamMembers/>
-      <Footer/>
+      <TeamMembers />
+      <Footer />
     </>
   );
 };
 
 export default Home;
-
