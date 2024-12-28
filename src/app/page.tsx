@@ -14,19 +14,20 @@ const Home = () => {
     <>
       <Navbar />
       <div
-        className="h-[70vh] bg-black bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('/ledgerlinelogo.png')",
-        }}
-      >
-        <main className="flex items-center justify-center h-full">
-          <div className="relative w-full h-full overflow-hidden">
-            <div className="absolute inset-0">
-              {/* Additional responsive content can go here */}
-            </div>
-          </div>
-        </main>
+  className="bg-black bg-cover bg-center bg-no-repeat h-[218px] md:h-[40vh] lg:h-[100vh]"
+  style={{
+    backgroundImage: "url('/ledgerlinelogo.png')",
+  }}
+>
+  <main className="flex items-center justify-center h-full">
+    <div className="relative w-full h-full overflow-hidden">
+      <div className="absolute inset-0">
+        {/* Additional responsive content can go here */}
       </div>
+    </div>
+  </main>
+</div>
+
       <Services />
       <Achievement />
       <Technologies />

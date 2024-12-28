@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
       {/* Logo Section */}
       <div className="flex items-center font-bold">
         <Image
-          src="/ledgerlogo.png"
+          src="/logoledger.png"
           alt="Ledger Line Logo"
           width={60}
           height={50}

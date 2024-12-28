@@ -61,27 +61,6 @@ const Services: React.FC = () => {
       title: 'Security Exchange', 
       description: 'A marketplace for creating, buying, and selling NFTs with a user-friendly interface.',
     },
-    // { 
-    //   icon: '/icons/card4.png', 
-    //   number: '2.1', 
-    //   category: 'DEFI', 
-    //   title: 'Decentralized Finance', 
-    //   description: 'A decentralized platform for lending, borrowing, and trading assets in a trustless environment.',
-    // },
-    // { 
-    //   icon: '/icons/card5.png', 
-    //   number: '3.1', 
-    //   category: 'WEB3', 
-    //   title: 'Web3 Development', 
-    //   description: 'Build decentralized applications (DApps) using blockchain technologies.',
-    // },
-    // { 
-    //   icon: '/icons/card6.png', 
-    //   number: '4.1', 
-    //   category: 'COIN DEVELOPMENT', 
-    //   title: 'Coin Creation', 
-    //   description: 'Develop your own cryptocurrency with custom features tailored to your needs.',
-    // },
   ];
 
   const filteredCards = selectedService
@@ -90,15 +69,15 @@ const Services: React.FC = () => {
 
   return (
     <section className="bg-black text-white py-10">
-      <div className="text-center mb-10 border border-blue-500 p-2 rounded-lg bg-white">
-  <h2 className="text-3xl font-bold flex items-center justify-center gap-2 relative">
+      <div className="text-center mb-10 border border-blue-500 p-2 rounded-lg bg-white -mt-12">
+  <h2 className="text-3xl font-bold flex items-center justify-center gap-2 relative ">
     
     <span className="relative  text-black">
       <Image src="/setting1.png" alt="Gear" width={70} height={65} />
     </span>
 
     
-    <span className="flex items-center gap-2 ">
+    <span className="flex items-center gap-2  ">
   <Image src="/Our.png" alt="Gear" width={220} height={200} />
 </span>
 
@@ -132,7 +111,7 @@ const Services: React.FC = () => {
       </div>
 
       {/* Mobile Design (One Box Per Row, Full Width) */}
-      <div className="flex md:hidden items-center bg-gray-600 px-32 py-12 mx-1 rounded-lg">
+      <div className="flex md:hidden md:h-4 items-center h-[20vh] bg-gray-600 px-32 py-12 mx-1 rounded-lg">
   {/* Icon */}
   <div className="flex-shrink-0">
     <Image
@@ -141,16 +120,14 @@ const Services: React.FC = () => {
       width={30}
       height={30}
       className="filter invert"
-    />
-  </div>
+      />
+       </div>
 
-  {/* Label */}
-  <div className="ml-2">
-    <p className="text-sm font-bold text-white">{service.label}</p>
-  </div>
-</div>
-
-
+       {/* Label */}
+       <div className="ml-2">
+       <p className="text-sm font-bold text-white">{service.label}</p>
+       </div>
+       </div>
 
       {/* Hover Icon */}
       {selectedService === service.label && (
@@ -171,29 +148,33 @@ const Services: React.FC = () => {
       key={index}
       className="relative group hover:shadow-[#0411FF] hover:shadow-lg rounded-3xl p-1 flex flex-col items-center justify-center w-full md:w-[calc(33.333%-1rem)] max-w-[360px] h-80 mb-4 transition"
     >
-      <div className="flex-1 bg-[#717171] w-full flex items-center justify-center text-white rounded-t-3xl">
-        <Image
-          src={card.icon}
-          alt={card.title}
-          width={80}
-          height={65}
-        />
-      </div>
+     <div className="flex-1 bg-[#717171] w-full flex items-center justify-center text-white rounded-t-3xl">
+  <Image
+    src={card.icon}
+    alt={card.title}
+    width={80}
+    height={65}
+    
+  />
+</div>
+
 
       <div className="flex-1 bg-[#FFFFFF] w-full p-4 rounded-b-3xl flex flex-col items-start justify-center">
         <span className="absolute top-1 right-1 bg-[#CDCCCC] text-black text-xl font-bold px-4 py-2 rounded-bl-3xl">
           {card.number}
         </span>
 
-        <h3 className="text-lg font-semibold mt-4 text-[#717171] group-hover:text-[#0411FF] text-left w-full">
+        <h3 className="text-xl  font-bold mt-4 text-[#717171] group-hover:text-[#0411FF] text-left w-full">
           {card.title}
         </h3>
-        <p className="text-sm text-[#000000] mt-2 text-left w-full">
+        <p className="md-text-xs text-[#000000] mt-2 text-left w-full font-light">
           {card.description}
         </p>
-        <button className="mt-2 px-6 py-2 text-blue-900 rounded-lg hover:bg-slate-800 transition self-end">
-          Learn More -
-        </button>
+        <button className="mt-2 px-6 py-2 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
+        Learn More
+           <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
+         </button>
+
       </div>
     </div>
   ))}
