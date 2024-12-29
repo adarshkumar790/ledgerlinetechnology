@@ -147,35 +147,37 @@ const Services: React.FC = () => {
   ))}
 </div>
   {/* Cards Product Section */}
-  <div className="flex justify-center gap-4 flex-wrap">
-    {filteredCards.map((card, index) => (
-      <div
-        key={index}
-        className="relative group hover:shadow-[#0411FF] hover:shadow-lg rounded-3xl p-1 flex flex-col items-center justify-center w-full md:w-[calc(33.333%-1rem)] max-w-[360px] h-80 mb-4 transition"
-      >
-        <div className="flex-1 bg-[#717171] w-full flex items-center justify-center text-white rounded-t-3xl">
-          <Image src={card.icon} alt={card.title} width={80} height={65} />
-        </div>
-
-        <div className="flex-1 bg-[#FFFFFF] w-full p-4 rounded-b-3xl flex flex-col items-start justify-center">
-          <span className="absolute top-1 right-1 bg-[#CACACA] text-black text-xl font-bold px-4 py-2 rounded-bl-3xl">
-            {card.number}
-          </span>
-
-          <h3 className="text-xl font-bold mt-4 text-[#717171] group-hover:text-[#0411FF] text-left w-full">
-            {card.title}
-          </h3>
-          <p className="md-text-xs text-[#000000] mt-2 text-left w-full font-light">
-            {card.description}
-          </p>
-          <button className="mt-2 px-6 py-2 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
-            Learn More
-            <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
-          </button>
-        </div>
+  <div className="flex justify-center gap-0 flex-wrap">
+  {filteredCards.map((card, index) => (
+    <div
+      key={index}
+      className="relative group hover:shadow-[#0411FF] hover:shadow-lg rounded-3xl p-1 flex flex-col items-center justify-center w-full sm:w-[calc(50%-1rem)] lg:w-[320px] max-w-[300px] h-80 mb-4 transition"
+    >
+      <div className="flex-1 bg-[#717171] w-full flex items-center justify-center text-white rounded-t-3xl">
+        <Image src={card.icon} alt={card.title} width={80} height={65} />
       </div>
-    ))}
-  </div>
+
+      <div className="flex-1 bg-[#FFFFFF] w-full p-4 rounded-b-3xl flex flex-col items-start justify-center">
+        <span className="absolute top-1 right-1 bg-[#CACACA] text-black text-xl font-bold px-4 py-2 rounded-bl-3xl">
+          {card.number}
+        </span>
+
+        <h3 className="text-xl font-bold mt-4 text-[#717171] group-hover:text-[#0411FF] text-left w-full">
+          {card.title}
+        </h3>
+        <p className="md-text-xs text-[#000000] mt-2 text-left w-full font-light">
+          {card.description}
+        </p>
+        <button className="mt-2 px-6 py-2 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
+          Learn More
+          <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
+        </button>
+      </div>
+    </div>
+  ))}
+</div>
+
+
 </section>
 
   );
