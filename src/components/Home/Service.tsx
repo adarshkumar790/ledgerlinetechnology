@@ -70,7 +70,7 @@ const Services: React.FC = () => {
   return (
     <section className="bg-black text-white py-10">
       <div className="text-center mb-10 border border-blue-500 p-2 rounded-lg bg-white -mt-12">
-  <h2 className="text-3xl font-bold flex items-center justify-center gap-2 relative ">
+  <h2 className="text-3xl md:font-bold font-bold  md:text-xs flex items-center justify-center gap-2 relative ">
     
     <span className="relative  text-black">
       <Image src="/setting1.png" alt="Gear" width={70} height={65} />
