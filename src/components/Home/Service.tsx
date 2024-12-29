@@ -111,7 +111,7 @@ const Services: React.FC = () => {
       </div>
 
       {/* Mobile Design (One Box Per Row, Full Width) */}
-      <div className="flex md:hidden md:h-4 items-center h-[20vh] bg-gray-600 px-32 py-12 mx-1 rounded-lg">
+      <div className="flex md:hidden md:h-4 items-center h-[20vh] bg-gray-600 px-24 py-8 mx-1 rounded-lg">
   {/* Icon */}
   <div className="flex-shrink-0">
     <Image
