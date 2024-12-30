@@ -3,7 +3,7 @@ import React from 'react';
 
 const TeamMembers: React.FC = () => {
   return (
-    <div className="min-h-screen  bg-black text-black py-12 px-6 flex flex-col items-center mb-4">
+    <div className="min-h-screen  bg-black text-black py-12 px-6 flex flex-col items-center">
       {/* For Desktop */}
       <div className="text-center text-4xl font-bold mb-8 bg-white text-black pt-6 border border-white w-2/3 h-40 relative hidden lg:block">
         Our Best Team Member
