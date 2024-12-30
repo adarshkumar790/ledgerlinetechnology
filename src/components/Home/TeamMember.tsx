@@ -78,76 +78,87 @@ const TeamMembers: React.FC = () => {
         </button>
       </div>
 
+
 {/* For Mobile */}
 <div className="min-h-screen bg-black py-12 px-4 flex flex-col items-center lg:hidden">
   {/* Section Title */}
-  <div className="relative text-center text-2xl font-bold text-black mb-8 bg-white w-full max-w-md mx-auto p-6 border border-white">
+  <div className="relative text-center text-2xl font-bold text-black mb-8 bg-white w-full max-w-md sm:max-w-none mx-auto p-6 border border-white">
     <h2>Our Best Team Members</h2>
     <div className="w-16 h-1 bg-black mx-auto mt-4" />
-    {/* Carousel Buttons */}
-    <button className="absolute top-1/2 left-2 transform -translate-y-1/2 text-white bg-black p-2 rounded-full hover:bg-gray-600">
-      <Image src="/left.png" alt="Left Arrow" width={20} height={20} />
-    </button>
-    <button className="absolute top-1/2 right-2 transform -translate-y-1/2 text-white bg-black p-2 rounded-full hover:bg-gray-600">
-      <Image src="/right.png" alt="Right Arrow" width={20} height={20} />
-    </button>
   </div>
 
-  {/* Team Member Cards */}
-  <div className="relative -mt-12 flex overflow-x-scroll space-x-4 snap-x snap-mandatory w-full">
-    {/* Card 1 */}
-    <div className="snap-center bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
-      <img
-        src="/tm2.png"
-        alt="John Doe"
-        className="w-full h-40 object-cover"
-      />
-      <div className="p-4 bg-white">
-        <h3 className="text-lg font-bold">John Doe</h3>
-        <p className="text-sm text-gray-700 mt-1">
-          I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
-        </p>
-      </div>
-      <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
-        <a href="#" className="hover:text-blue-500">
-          <Image src="/ln.png" alt="LinkedIn" width={20} height={20} />
-        </a>
-        <a href="#" className="hover:text-blue-400">
-          <Image src="/fa.png" alt="Twitter" width={20} height={20} />
-        </a>
-        <a href="#" className="hover:text-blue-700">
-          <Image src="/tw.png" alt="Facebook" width={20} height={20} />
-        </a>
-      </div>
+  {/* Team Member Cards Container */}
+  <div className="relative w-full flex flex-col items-center">
+    {/* Carousel Buttons - Outside the Cards */}
+    <div className="absolute top-1/2 left-[-17px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
+      <button>
+        <Image src="/left.png" alt="Left Arrow" width={20} height={20} />
+      </button>
+    </div>
+    <div className="absolute top-1/2 right-[-17px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
+      <button>
+        <Image src="/right.png" alt="Right Arrow" width={20} height={20} />
+      </button>
     </div>
 
-    {/* Card 2 */}
-    <div className="snap-center bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
-      <img
-        src="/tm2.png"
-        alt="Alex Smith"
-        className="w-full h-40 object-cover"
-      />
-      <div className="p-6 bg-white">
-        <h3 className="text-lg font-bold">Alex Smith</h3>
-        <p className="text-sm text-gray-700 mt-1">
-          I am Alex Smith, a full-stack developer who builds efficient and scalable web applications.
-        </p>
+    {/* Team Member Cards */}
+    <div className="relative -mt-12 flex overflow-x-scroll space-x-4 snap-x snap-mandatory w-full">
+      {/* Card 1 */}
+      <div className="snap-center bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
+        <img
+          src="/tm2.png"
+          alt="John Doe"
+          className="w-full h-40 object-cover"
+        />
+        <div className="p-4 bg-white">
+          <h3 className="text-lg font-bold">John Doe</h3>
+          <p className="text-sm text-gray-700 mt-1">
+            I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
+          </p>
+        </div>
+        <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
+          <a href="#" className="hover:text-blue-500">
+            <Image src="/ln.png" alt="LinkedIn" width={20} height={20} />
+          </a>
+          <a href="#" className="hover:text-blue-400">
+            <Image src="/fa.png" alt="Twitter" width={20} height={20} />
+          </a>
+          <a href="#" className="hover:text-blue-700">
+            <Image src="/tw.png" alt="Facebook" width={20} height={20} />
+          </a>
+        </div>
       </div>
-      <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
-        <a href="#" className="hover:text-blue-500">
-          <Image src="/ln.png" alt="LinkedIn" width={20} height={20} />
-        </a>
-        <a href="#" className="hover:text-blue-400">
-          <Image src="/fa.png" alt="Twitter" width={20} height={20} />
-        </a>
-        <a href="#" className="hover:text-blue-700">
-          <Image src="/tw.png" alt="Facebook" width={20} height={20} />
-        </a>
+
+      {/* Card 2 */}
+      <div className="snap-center bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
+        <img
+          src="/tm2.png"
+          alt="Alex Smith"
+          className="w-full h-40 object-cover"
+        />
+        <div className="p-6 bg-white">
+          <h3 className="text-lg font-bold">Alex Smith</h3>
+          <p className="text-sm text-gray-700 mt-1">
+            I am Alex Smith, a full-stack developer who builds efficient and scalable web applications.
+          </p>
+        </div>
+        <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
+          <a href="#" className="hover:text-blue-500">
+            <Image src="/ln.png" alt="LinkedIn" width={20} height={20} />
+          </a>
+          <a href="#" className="hover:text-blue-400">
+            <Image src="/fa.png" alt="Twitter" width={20} height={20} />
+          </a>
+          <a href="#" className="hover:text-blue-700">
+            <Image src="/tw.png" alt="Facebook" width={20} height={20} />
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+
 
 
     </div>
