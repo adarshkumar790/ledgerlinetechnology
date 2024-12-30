@@ -9,7 +9,7 @@ const ScopeWork: FC = () => {
       <div className="absolute top-52 bg-white w-full h-28 overflow-hidden"></div>
       
       
-      <div className="max-w-6xl mx-auto flex flex-col items-center">
+      <div className="max-w-6xl mx-auto flex flex-col items-center md:mt-0 mt-24 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           
           
