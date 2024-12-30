@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bg-[#393D42] text-gray-300 py-8 w-full">
       
-      <p className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-black/2 px-4 text-white font-bold text-4xl uppercase">
+      <p className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-black/2 px-4 text-white font-bold text-4xl uppercase">
         Innovation Beyond Boundries
       </p>
       
