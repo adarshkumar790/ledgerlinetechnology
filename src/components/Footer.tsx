@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               LEDGERLINE <br /> TECHNOLOGY
             </span>
           </div>
-          <div className="flex space-x-4 mt-4 ml-10">
+          <div className="flex space-x-4 mt-4 ml-8">
             <a href="#" className="text-gray-400 hover:text-white">
               <Image
                 src="/in.png"
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-8 md:mt-0 md:flex md:space-x-16">
+        <div className="mt-8 md:mt-0 md:flex md:space-x-16 pl-9 sm:pl-6">
           <div>
             <h3 className="text-white font-bold mb-4">Links</h3>
             <ul className="space-y-2">
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-white font-bold mb-4">Services</h3>
+            <h3 className="text-white font-bold mb-2 mt-4">Services</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-white">Blockchain</a></li>
               <li><a href="#" className="text-white">Metaverse</a></li>
@@ -101,7 +101,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-8 md:mt-0">
+        <div className="mt-8 md:mt-0 md:flex md:space-x-16 pl-9 sm:pl-6">
           <h3 className="text-white font-semibold mb-4">Contact</h3>
           <ul className="space-y-4">
             {/* Address */}
