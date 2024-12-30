@@ -5,17 +5,17 @@ import React from "react";
 
 const AboutLedgerline: React.FC = () => {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white -mt-20 md:-mt-20 ">
       <div className="container mx-auto p-8 max-w-5xl">
-        <h1 className="text-center mt-12">
+        <h1 className="text-center md:mt-24 mt-20 ">
           <span className="text-[#FFFFFF] md:text-4xl text-2xl flex flex-start font-semibold  md:font-bold">About Ledgerline:</span>{" "}
           <span className="text-bold md:text-3xl text-xl flex flex-start">Innovation beyond boundaries</span>
         </h1>
 
         <div className="mt-12 flex flex-col-reverse md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
           {/* Text Box */}
-          <div className="bg-white text-black p-1 md:p-6 shadow-lg -mr-32 -mt-80  max-w-sm md:w-full w-[76%]  mt-12 md:mt-12 md:relative md:-mr-20 md:z-10 z-10">
-            <div className="flex items-center space-x-1 ">
+          <div className="bg-white text-black p-1 md:p-6 shadow-lg -mr-32 -mt-72  max-w-sm md:w-full w-[76%]  mt-12 md:mt-12 md:relative md:-mr-20 md:z-10 z-10">
+            <div className="flex items-center space-x-0 ">
               <div className="hidden md:block w-1 h-8 bg-gray-500 rounded"></div>
               <h2 className="text-m md:text-2xl font-bold flex items-center">
                 Empowering the Future with Blockchain Innovation
@@ -38,9 +38,9 @@ const AboutLedgerline: React.FC = () => {
           </div>
 
           {/* Image Box */}
-          <div className="flex-1 relative w-full md:w-1/2 -ml-12">
+          <div className="flex-1 relative w-full md:w-1/2 -ml-12 ">
             <div
-              className="bg-cover bg-center w-[90%]  md:w-full h-[340px] md:h-[400px] md:relative"
+              className="bg-cover bg-center w-[90%]   md:w-full h-[320px] md:h-[400px] md:relative"
               style={{
                 backgroundImage: "url('/about1.png')",
               }}

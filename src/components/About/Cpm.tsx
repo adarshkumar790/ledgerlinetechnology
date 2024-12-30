@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Cpm() {
   return (
-    <div className="bg-black text-white min-h-screen flex items-center justify-center p-8">
+    <div className="bg-black text-white min-h-screen flex items-center justify-center p-8 -mt-72">
       <div className="container grid grid-cols-1 md:grid-cols-5 gap-4  max-w-5xl p-8">
       
         <div className="md:col-span-2 space-y-2">

@@ -9,23 +9,23 @@ const Banner: React.FC = () => {
     <>
       <Navbar />
       {/* Banner Section */}
-      <div className="relative w-full h-[70vh] bg-black text-white overflow-hidden">
+      <div className="relative w-full md:h-[70vh] h-[45vh] bg-black text-white overflow-hidden">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-40"
+          className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: "url('/about.png')",
           }}
         ></div>
 
         {/* Main Content */}
-        <div className="relative z-10 flex flex-col items-start justify-start h-full px-4 pt-20 md:ml-20">
-          <h1 className="text-3xl md:text-5xl font-bold">
+        <div className="relative z-10 flex flex-col items-start justify-start  px-6 md:pt-12 pt-4 md:ml-20 ">
+          <h1 className="text-2xl md:text-3xl w-full font-bold">
             Fostering Business{" "}
-            <span className="text-blue-400">Growth</span> with <br className="hidden md:block" />
-            LEDGER LINE TECHNOLOGY
+            <span className="text-blue-400 md:text-4xl text-3xl"><br/> Growth</span> with <br/> <span className="md:block md:text-3xl font-bold text-xl" >
+            LEDGER LINE TECHNOLOGY </span>
           </h1>
-          <p className="mt-3 text-sm md:text-lg text-gray-300">
+          <p className="mt-1 text-sm md:text-lg text-gray-300 w-full">
             Whether you want to transform your business digitally, clear bottlenecks,
             enhance your operations, or get that competitive edge
             <br className="hidden md:block" /> in the market, we are the experts adept at designing practical,
@@ -36,7 +36,7 @@ const Banner: React.FC = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="relative -mt-12 flex justify-center w-full px-2">
+      <div className="relative flex justify-center w-full px-2 md:-mt-12 -mt-16">
         {/* Combined Box */}
         <div className="bg-white text-black text-center px-4 py-4 shadow-md w-full max-w-4xl flex flex-row md:flex-row justify-around border-4 border-gray-500">
           {/* Stat 1 */}
