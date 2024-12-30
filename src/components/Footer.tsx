@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <footer className="relative bg-[#393D42] text-gray-300 py-8 w-full">
       
       {/* Innovation Beyond Boundaries Section */}
-      <p className="absolute -top-4 left-1/2 transform -translate-x-1/2 px-4 text-white font-bold text-4xl uppercase bg-transparent">
+      <p className="absolute top-0 left-1/2 transform -translate-x-1/2 px-4 text-white font-bold text-4xl uppercase bg-[#393D42] z-10">
         Innovation Beyond Boundaries
       </p>
       
