@@ -90,12 +90,12 @@ const TeamMembers: React.FC = () => {
   {/* Team Member Cards Container */}
   <div className="relative w-full flex flex-col items-center">
     {/* Carousel Buttons - Outside the Cards */}
-    <div className="absolute top-1/2 left-[-17px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
+    <div className="absolute top-1/2 left-[-20px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
       <button>
         <Image src="/left.png" alt="Left Arrow" width={20} height={20} />
       </button>
     </div>
-    <div className="absolute top-1/2 right-[-17px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
+    <div className="absolute top-1/2 right-[-20px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
       <button>
         <Image src="/right.png" alt="Right Arrow" width={20} height={20} />
       </button>
