@@ -5,10 +5,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bg-[#393D42] text-gray-300 py-8 w-full">
       
-      <p className="absolute -top-4 left-1/2 transform -translate-x-1/2 px-4 text-white font-bold text-4xl uppercase">
-  Innovation Beyond Boundaries
-</p>
-
+      {/* Innovation Beyond Boundaries Section */}
+      <p className="absolute -top-4 left-1/2 transform -translate-x-1/2 px-4 text-white font-bold text-4xl uppercase bg-transparent">
+        Innovation Beyond Boundaries
+      </p>
       
       <div className="max-w-[900px] mx-auto px-4 md:flex md:justify-between md:items-start mt-20">
         
