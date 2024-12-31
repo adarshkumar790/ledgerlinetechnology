@@ -26,16 +26,19 @@ const Navbar: React.FC = () => {
     <header className="flex items-center justify-between p-5 bg-black relative z-50">
       {/* Logo Section */}
       <div className="flex items-center font-bold">
-        <Image
-          src="/logoledger.png"
-          alt="Ledger Line Logo"
-          width={60}
-          height={50}
-        />
-        <span className="text-white font-bold ml-2 md:font-extrabold md-text-xl">
-          LEDGERLINE <br /> TECHNOLOGY
-        </span>
-      </div>
+  <Image
+    src="/logoledger.png"
+    alt="Ledger Line Logo"
+    width={80}
+    height={50}
+  />
+  <span className="text-white ml-2">
+    <span className="font-black md:text-xl">LEDGERLINE</span>
+    <br />
+    <span className="font-bold md:text-lg">TECHNOLOGY</span>
+  </span>
+</div>
+
 
       {/* Mobile Menu Button */}
       <div className="block md:hidden">
