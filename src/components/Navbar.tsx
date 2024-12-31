@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <header className="flex items-center justify-between p-5 bg-black">
+    <header className="flex items-center justify-between p-5 bg-black relative z-50">
       {/* Logo Section */}
       <div className="flex items-center font-bold">
         <Image
@@ -39,49 +39,37 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu Button */}
       <div className="block md:hidden">
-  <button
-    onClick={handleToggleMenu}
-    className="text-white focus:outline-none text-3xl"
-  >
-    {isOpen ? (
-      <Image
-        src="/close.png"
-        alt="Close menu"
-        width={40}
-        height={30}
-      />
-    ) : (
-      <Image
-        src="/menu.png" 
-        alt="Open menu"
-        width={40} 
-        height={30}
-      />
-    )}
-  </button>
-</div>
-
+        <button
+          onClick={handleToggleMenu}
+          className="text-white focus:outline-none text-3xl"
+        >
+          {isOpen ? (
+            <Image src="/close.png" alt="Close menu" width={40} height={30} />
+          ) : (
+            <Image src="/menu.png" alt="Open menu" width={40} height={30} />
+          )}
+        </button>
+      </div>
 
       {/* Navigation Links */}
       <nav
-  className={`${
-    isOpen ? "flex bg-black" : "hidden"
-  } md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 text-sm uppercase absolute md:static md:bg-transparent w-full md:w-auto top-20 left-0 md:top-auto md:left-auto px-5 md:px-0 py-5 md:py-0 z-10`}
->
-  {navLinks.map(({ href, label }) => (
-    <Link
-      key={href}
-      href={href}
-      className={`text-white text-center md:text-left ${
-        pathname === href ? "border-b-2 border-blue-500" : "font-semibold"
-      }`}
-      onClick={() => setIsOpen(false)}
-    >
-      {label}
-    </Link>
-  ))}
-</nav>
-
+        className={`${
+          isOpen ? "flex" : "hidden"
+        } md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 text-sm uppercase fixed md:static bg-black md:bg-transparent w-full md:w-auto top-0 left-0 md:top-auto md:left-auto px-5 md:px-0 py-5 md:py-0 z-50`}
+      >
+        {navLinks.map(({ href, label }) => (
+          <Link
+            key={href}
+            href={href}
+            className={`text-white text-center md:text-left ${
+              pathname === href ? "border-b-2 border-blue-500" : "font-semibold"
+            }`}
+            onClick={() => setIsOpen(false)}
+          >
+            {label}
+          </Link>
+        ))}
+      </nav>
     </header>
   );
 };

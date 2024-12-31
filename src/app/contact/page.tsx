@@ -7,7 +7,7 @@ const ContactUs: React.FC = () => {
   return (
     <>
       <Navbar />
-      {/* Desktop Background */}
+      
       <div 
         className="relative hidden md:block md:w-full h-[300px] bg-cover bg-center" 
         style={{ backgroundImage: 'url("/contact.png")' }}
@@ -23,7 +23,7 @@ const ContactUs: React.FC = () => {
         </div>
       </div>
 
-      {/* Responsive Background */}
+      
       <div 
         className="relative block md:hidden w-full h-[140px] bg-cover bg-center" 
         style={{ backgroundImage: 'url("/ledgerimage.png")' }}
