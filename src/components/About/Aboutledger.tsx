@@ -8,8 +8,8 @@ const AboutLedgerline: React.FC = () => {
     <div className="min-h-screen bg-black text-white -mt-20">
       <div className="container mx-auto p-8 max-w-5xl">
         <h1 className="text-center mt-24">
-          <span className="text-[#FFFFFF] text-4xl flex flex-start font-semibold font-bold">About Ledgerline:</span>{" "}
-          <span className="text-bold text-3xl flex flex-start">Innovation beyond boundaries</span>
+          <span className="text-[#FFFFFF] md:text-4xl text-2xl  flex flex-start font-semibold font-bold">About Ledgerline:</span>{" "}
+          <span className="text-bold md:text-3xl text-xl flex flex-start">Innovation beyond boundaries</span>
         </h1>
 
         <div className="mt-12 flex flex-row items-start space-x-8">
