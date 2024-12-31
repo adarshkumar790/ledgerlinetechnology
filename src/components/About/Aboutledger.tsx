@@ -40,7 +40,7 @@ const AboutLedgerline: React.FC = () => {
           {/* Image Box */}
           <div className="flex-1 relative w-[80%] md:w-1/2">
             <div
-              className="bg-cover bg-center w-[230%] md:-ml-0 -ml-24 mr-20 md:w-full h-[400px]"
+              className="bg-cover bg-center w-[230%] md:-ml-0 -ml-24 mr-20 md:w-full h-[360px] md:h-[400px]"
               style={{
                 backgroundImage: "url('/about1.png')",
               }}
