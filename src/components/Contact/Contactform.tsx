@@ -45,7 +45,7 @@ const ContactForm: React.FC = () => {
       <div className="relative w-full min-h-screen flex items-center">
         
         <div className="absolute inset-0 bg-[#393D42] text-white p-8 flex flex-col justify-center mt-60">
-          <div className="ml-8 md:mt-0 mt-24 ">
+          <div className="ml-8 md:mt-0 mt-24">
             <p className="mb-6 md:text-2xl text-sm">
               We’d be delighted to connect with you! <br /> Complete the form, and we’ll get back <br /> to you at the earliest opportunity.
             </p>
