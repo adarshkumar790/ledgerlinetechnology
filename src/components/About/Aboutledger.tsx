@@ -14,7 +14,7 @@ const AboutLedgerline: React.FC = () => {
 
         <div className="mt-12 flex flex-row items-start space-x-8">
           {/* Text Box */}
-          <div className="bg-white text-black md:p-6 p-1 shadow-lg mt-20 md:mt-12 md:-mr-20 -ml-6 z-10 max-w-sm w-[70%] md:w-full">
+          <div className="bg-white text-black md:p-6 p-1 shadow-lg mt-10 md:mt-12 md:-mr-20 -ml-6 z-10 max-w-sm w-[70%] md:w-full">
             <div className="flex items-center space-x-0">
               <div className="hidden w-1 h-8 bg-gray-500 rounded"></div>
               <h2 className="md:text-2xl text-m flex items-center">
@@ -40,7 +40,7 @@ const AboutLedgerline: React.FC = () => {
           {/* Image Box */}
           <div className="flex-1 relative w-[80%] md:w-1/2">
             <div
-              className="bg-cover bg-center w-[230%] md:-ml-0 -ml-24 mr-20 md:w-full h-[360px] md:h-[400px]"
+              className="bg-cover bg-center w-[240%] md:-ml-0 -ml-24 mr-20 md:w-full h-[340px] md:h-[400px]"
               style={{
                 backgroundImage: "url('/about1.png')",
               }}
