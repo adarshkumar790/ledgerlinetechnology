@@ -7,7 +7,7 @@ const BlogCards2: React.FC = () => {
       <div className="grid lg:grid-cols-2 md:gap-4 gap-16 max-w-5xl mx-auto px-4 relative">
 
         {/* Text Section */}
-        <div className="flex flex-col justify-center mt-12 lg:mt-48 lg:-mr-2 lg:ml-16 bg-white md:p-6 p-4 pb-14  shadow-lg relative md:z-10 z-10 w-full h-auto lg:w-5/7 lg:h-64">
+        <div className="flex flex-col justify-center mt-12 lg:mt-48 lg:-mr-2 lg:ml-16 bg-white md:p-6 p-4 pb-16  shadow-lg relative md:z-10 z-10 w-full h-auto lg:w-5/7 lg:h-64">
           <h2 className="font-bold text-black mb-4 text-lg lg:text-xl">
             Choosing the Right Blockchain: A Guide to IDO Development
           </h2>
@@ -32,7 +32,7 @@ const BlogCards2: React.FC = () => {
             className="object-cover w-full lg:w-[700px] h-auto"
           />
 
-          <div className="absolute top-1/2 md:mt-40 -mt-48 transform -translate-y-1/2 z-10 right-4 md:w-[180px] w-[200px] h-[140px] lg:top-60 lg:ml-8 right-24 lg:right-16">
+          <div className="absolute top-1/2 md:mt-40 -mt-48 transform -translate-y-1/2 z-10 right-4 md:w-[180px] w-[190px] h-[160px] lg:top-60 lg:ml-8 right-20 lg:right-16">
             <Image
               src="/blog7.png"
               alt="Handshake"
