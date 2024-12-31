@@ -16,7 +16,7 @@ const ScopeWork: FC = () => {
       <div className="max-w-6xl mx-auto flex flex-col items-center md:mt-0 md:mt-24 mt-0">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 text-center">
           {/* Scope Of Work Box */}
-          <div className="bg-[#393D42] hover:border-b-blue-800 border border-white border-b-8 p-8 w-64 h-80 shadow-lg flex flex-col items-center overflow-hidden relative">
+          <div className="bg-[#393D42] hover:border-b-blue-800 md:-mt-40 border border-white border-b-8 p-8 w-64 h-80 shadow-lg flex flex-col items-center overflow-hidden relative">
             <div className="text-white text-4xl mb-4 p-5 rounded-full bg-white">
               <Image src="/job1.png" alt="Briefcase" width={40} height={40} />
             </div>
@@ -27,7 +27,7 @@ const ScopeWork: FC = () => {
           </div>
 
           {/* Our Solution Box */}
-          <div className="bg-[#393D42] hover:border-b-blue-800 border border-white border-b-8 p-8 w-64 h-80 shadow-lg flex flex-col items-center overflow-hidden relative">
+          <div className="bg-[#393D42] hover:border-b-blue-800 md:-mt-20 border border-white border-b-8 p-8 w-64 h-80 shadow-lg flex flex-col items-center overflow-hidden relative">
             <div className="text-white text-4xl mb-4 p-5 rounded-full bg-white">
               <Image src="/job2.png" alt="Briefcase" width={40} height={40} />
             </div>
@@ -38,7 +38,7 @@ const ScopeWork: FC = () => {
           </div>
 
           {/* The Platform Box */}
-          <div className="bg-[#393D42] hover:border-b-blue-800 border border-white border-b-8 p-8 w-64 h-80 shadow-lg flex flex-col items-center overflow-hidden relative">
+          <div className="bg-[#393D42] hover:border-b-blue-800 border border-white border-b-8 p-8 w-64 h-80  shadow-lg flex flex-col items-center overflow-hidden relative">
             <div className="text-white text-4xl mb-4 p-5 rounded-full bg-white">
               <Image src="/job3.png" alt="Briefcase" width={40} height={40} />
             </div>
