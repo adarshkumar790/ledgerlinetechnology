@@ -68,12 +68,12 @@ const Category: React.FC = () => {
               className="object-cover w-full h-80"
             />
 
-            {/* Hover Overlay */}
+          
             <div
               className={`absolute inset-0 ${project.bgClass} opacity-0 group-hover:opacity-60 transition-opacity`}
             />
 
-            {/* Hover Buttons */}
+        
             <div className="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
               <div className="flex items-center justify-center space-x-6">
                 <button className="bg-white text-black text-sm p-2 rounded-full shadow-lg">
@@ -85,15 +85,12 @@ const Category: React.FC = () => {
               </div>
             </div>
 
-            {/* Project Title */}
             <div className="absolute inset-x-0 bottom-0 p-2 bg-opacity-90 bg-blue-700">
               <h3 className="text-center text-lg font-bold">{project.title}</h3>
             </div>
           </div>
         ))}
       </div>
-
-      {/* Footer Spacer */}
       <div className="h-16 md:h-24" />
     </div>
   );
