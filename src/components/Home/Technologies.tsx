@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Technologies: React.FC = () => {
   return (
     <>
-    <div className="bg-black text-white py-12 md:mr-0 md:ml-0 ml-2 mr-2">
+    <div className="bg-black text-white py-12 p-2">
   <div className="text-center mb-8">
     <h2 className="text-4xl font-bold">Our Technologies</h2>
     <div className="w-16 h-1 bg-gray-500 mx-auto mt-2"></div>
