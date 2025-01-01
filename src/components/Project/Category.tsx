@@ -71,7 +71,7 @@ const Category: React.FC = () => {
               </div>
               {/* Label */}
               <span
-                className={`mt-2 md:mt-2 -mt-8 md:ml-0 ml-8    md:text-[#FFFFFF] ${
+                className={`mt-2 md:mt-2 -mt-12 md:ml-0 ml-8    md:text-[#FFFFFF] ${
                   selectedCategory === index
                     ? "text-[#FFFFFF] font-bold"
                     : "text-[#83868A]"
