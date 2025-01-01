@@ -44,7 +44,7 @@ const Category: React.FC = () => {
       <div className="relative py-6 md:ml-4">
         {/* Line connecting the circles */}
         <div className="absolute md:top-[35%] z-10 md:left-0 md:right-0 md:w-[66%] md:ml-56 md:h-[2px] md:bg-[#83868A] md:transform md:-translate-y-1/2 hidden md:block"></div>
-        <div className="absolute top-0 left-[32%] z-10 h-full w-[2px] bg-[#83868A] transform -translate-x-1/2 md:hidden"></div>
+        <div className="absolute top-0 left-[34%] z-10 h-full w-[2px] bg-[#83868A] transform -translate-x-1/2 md:hidden"></div>
 
         {/* Vertical layout */}
         <div className="flex md:flex-row flex-col  items-center justify-center space-y-6 md:space-y-0 md:space-x-20">
@@ -71,7 +71,7 @@ const Category: React.FC = () => {
               </div>
               {/* Label */}
               <span
-                className={`mt-2 md:mt-2 -mt-6 md:ml-0 ml-4    md:text-[#FFFFFF] ${
+                className={`mt-2 md:mt-2 -mt-8 md:ml-0 ml-8    md:text-[#FFFFFF] ${
                   selectedCategory === index
                     ? "text-[#FFFFFF] font-bold"
                     : "text-[#83868A]"
