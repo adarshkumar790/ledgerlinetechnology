@@ -42,12 +42,14 @@ const Category: React.FC = () => {
     <div className="bg-black min-h-screen flex flex-col text-white">
       {/* Navigation Bar for Categories */}
       <div className="relative py-6 md:ml-4">
-        {/* Line connecting the circles */}
+        {/* Desktop Line connecting the circles */}
         <div className="absolute md:top-[35%] z-10 md:left-0 md:right-0 md:w-[66%] md:ml-56 md:h-[2px] md:bg-[#83868A] md:transform md:-translate-y-1/2 hidden md:block"></div>
-        <div className="absolute top-0 left-[34%] z-10 h-full w-[2px] bg-[#83868A] transform -translate-x-1/2 md:hidden"></div>
 
-        {/* Vertical layout */}
-        <div className="flex md:flex-row flex-col  items-center justify-center space-y-6 md:space-y-0 md:space-x-20">
+        {/* Mobile Vertical Line */}
+        <div className="absolute top-0 left-[50%] z-10 h-full w-[2px] bg-[#83868A] transform -translate-x-1/2 md:hidden"></div>
+
+        {/* Category Items */}
+        <div className="flex md:flex-row flex-col items-center justify-center space-y-6 md:space-y-0 md:space-x-20">
           {categories.map((category, index) => (
             <div
               key={index}
@@ -56,7 +58,7 @@ const Category: React.FC = () => {
             >
               {/* Circle */}
               <div
-                className={`md:w-6 md:h-6 w-8 h-8 border-2 rounded-full -ml-32 md:-ml-0  flex items-center justify-center relative ${
+                className={`md:w-6 md:h-6 w-8 h-8 border-2 rounded-full flex items-center justify-center relative ${
                   selectedCategory === index
                     ? "border-[#FFFFFF] bg-black"
                     : "border-[#83868A] bg-black"
@@ -71,7 +73,7 @@ const Category: React.FC = () => {
               </div>
               {/* Label */}
               <span
-                className={`mt-2 md:mt-2 -mt-12 md:ml-0 ml-8    md:text-[#FFFFFF] ${
+                className={`mt-2 md:mt-2 text-center text-sm md:text-base ${
                   selectedCategory === index
                     ? "text-[#FFFFFF] font-bold"
                     : "text-[#83868A]"
