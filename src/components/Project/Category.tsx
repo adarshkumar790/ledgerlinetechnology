@@ -91,7 +91,7 @@ const Category: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="h-16 md:h-24" />
+      <div className="h-16 md:h-64" />
     </div>
   );
 };
