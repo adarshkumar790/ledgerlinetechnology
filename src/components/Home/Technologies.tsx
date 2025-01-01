@@ -11,7 +11,7 @@ const Technologies: React.FC = () => {
 
   {/* First Section */}
   <div className="flex flex-col md:flex-row justify-center items-center  md:items-start max-w-5xl mx-auto border border-gray-500">
-  <div className="bg-[#383838] h-full w-full md:w-1/2 md:p-8 p-0 flex flex-col justify-center items-center border-b md:border-b-0 md:border-r border-gray-500">
+  <div className="bg-[#383838] h-full w-full md:w-1/2  md:p-8 p-0 flex flex-col justify-center items-center border-b md:border-b-0 md:border-r border-gray-500">
     <ul className="mt-4 text-gray-400 space-y-2 text-center">
       <li className="text-[#383838]">✓ Decentralized Ledger</li>
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
@@ -28,7 +28,7 @@ const Technologies: React.FC = () => {
       <li className="text-[#383838]">✓ Secure Transactions</li>
     </ul>
   </div>
-  <div className="grid grid-cols-2 sm:grid-cols-3  md:p-4 p-4 w-full md:w-1/2">
+  <div className="grid grid-cols-2 sm:grid-cols-3 gap-1 md:p-4 p-4 w-full md:w-1/2">
     <TechnologyCard src="/sol.png" alt="Solidity Logo" title="Solidity" />
     <TechnologyCard src="/sol6.png" alt="Ethereum Logo" title="ERC-20" />
     <TechnologyCard src="/sol2.png" alt="Binance Logo" title="Binance" />
