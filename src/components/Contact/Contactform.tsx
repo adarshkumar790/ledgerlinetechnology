@@ -45,7 +45,7 @@ const ContactForm: React.FC = () => {
       <div className="relative w-full min-h-screen flex items-center">
         
         <div className="absolute inset-0 bg-[#393D42] text-white p-8 flex flex-col justify-center mt-60">
-          <div className="ml-8 md:mt-0 mt-24">
+          <div className="ml-6 md:mt-0 mt-40">
             <p className="mb-6 md:text-2xl text-sm">
               We’d be delighted to connect with you! <br /> Complete the form, and we’ll get back <br /> to you at the earliest opportunity.
             </p>
@@ -67,7 +67,7 @@ const ContactForm: React.FC = () => {
         </div>
 
       
-        <div className="relative z-10 bg-white md:-mt-0 -mt-96 md:top-0 top-8 p-6 w-[70%] md:w-[28%] max-w-md ml-auto md:mr-32 mr-16  shadow-lg rounded-2xl overflow-hidden">
+        <div className="relative z-10 bg-white md:-mt-0 -mt-96 md:top-0 top-8 p-6 w-[78%] md:w-[28%] max-w-md ml-auto md:mr-32 mr-9  shadow-lg rounded-2xl overflow-hidden">
           <h2 className="text-xl font-semibold text-[#000000] mb-4">Send us a message</h2>
           <form ref={form} onSubmit={sendEmail} className="space-y-1">
             <div>
