@@ -47,7 +47,7 @@ const Category: React.FC = () => {
         <div className="absolute top-0 left-[32%] z-10 h-full w-[2px] bg-[#83868A] transform -translate-x-1/2 md:hidden"></div>
 
         {/* Vertical layout */}
-        <div className="flex md:flex-row flex-col  items-center justify-center space-y-4 md:space-y-0 md:space-x-20">
+        <div className="flex md:flex-row flex-col  items-center justify-center space-y-6 md:space-y-0 md:space-x-20">
           {categories.map((category, index) => (
             <div
               key={index}
