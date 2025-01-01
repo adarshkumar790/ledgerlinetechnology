@@ -73,7 +73,7 @@ const Category: React.FC = () => {
               </div>
               {/* Label */}
               <span
-                className={`text-center ${
+                className={`text-center md:mt-4 ${
                   selectedCategory === index
                     ? "text-[#FFFFFF] font-bold"
                     : "text-[#83868A]"
