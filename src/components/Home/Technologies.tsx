@@ -10,8 +10,8 @@ const Technologies: React.FC = () => {
   </div>
 
   {/* First Section */}
-  <div className="flex flex-col md:flex-row justify-center items-center md:items-start max-w-5xl mx-auto border border-gray-500">
-  <div className="bg-[#383838] h-full w-full md:w-1/2 p-8 flex flex-col justify-center items-center border-b md:border-b-0 md:border-r border-gray-500">
+  <div className="flex flex-col md:flex-row justify-center items-center  md:items-start max-w-5xl mx-auto border border-gray-500">
+  <div className="bg-[#383838] h-full w-full md:w-1/2 md:p-8 p-0 flex flex-col justify-center items-center border-b md:border-b-0 md:border-r border-gray-500">
     <ul className="mt-4 text-gray-400 space-y-2 text-center">
       <li className="text-[#383838]">✓ Decentralized Ledger</li>
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
@@ -28,7 +28,7 @@ const Technologies: React.FC = () => {
       <li className="text-[#383838]">✓ Secure Transactions</li>
     </ul>
   </div>
-  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 p-8 w-full md:w-1/2">
+  <div className="grid grid-cols-2 sm:grid-cols-3  md:p-4 p-4 w-full md:w-1/2">
     <TechnologyCard src="/sol.png" alt="Solidity Logo" title="Solidity" />
     <TechnologyCard src="/sol6.png" alt="Ethereum Logo" title="ERC-20" />
     <TechnologyCard src="/sol2.png" alt="Binance Logo" title="Binance" />
@@ -43,7 +43,7 @@ const Technologies: React.FC = () => {
   {/* Repeat similar adjustments for other sections */}
   <div className="flex flex-col md:flex-row justify-center items-center md:items-start mt-4 max-w-5xl mx-auto border border-gray-500">
   {/* Frontend Technologies */}
-  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 p-8 w-full md:w-1/2 md:order-1">
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:gap-4 gap-0 md:p-8  w-full md:w-1/2 md:order-1">
     <FrontendCard src="/f1.png" alt="Next Logo" title="Next Js" />
     <FrontendCard src="/f2.png" alt="React Logo" title="React Js" />
     <FrontendCard src="/typescript.png" alt="Typescript Logo" title="TypeScript" />
@@ -52,7 +52,7 @@ const Technologies: React.FC = () => {
   </div>
 
   {/* Frontend Title and Description */}
-  <div className="bg-[#383838] w-full md:w-1/2 p-8 flex flex-col justify-center items-center border-t md:border-t-0 md:border-l border-gray-500 md:order-2">
+  <div className="bg-[#383838] w-full md:w-1/2 md:p-8 p-0 flex flex-col justify-center items-center border-t md:border-t-0 md:border-l border-gray-500 md:order-2">
     <ul className="mt-4 text-gray-400 space-y-2 text-center">
       <li className="text-[#383838]">✓ Decentralized Ledger</li>
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
@@ -145,14 +145,14 @@ const FrontendCard: React.FC<TechnologyCardProps> = ({ src, alt, title }) => (
 );
 
 const BackendCard: React.FC<TechnologyCardProps> = ({ src, alt, title }) => (
-  <div className="flex items-center gap-8 w-37 p-5 border border-gray-500    rounded-xl">
+  <div className="flex items-center gap-8 w-37 p-5 border border-[#FFFFFF]    rounded-xl">
     <Image src={src} alt={alt} width={140} height={100}  />
     
   </div>
 );
 
 const DatabaseCard: React.FC<TechnologyCardProps> = ({ src, alt, title }) => (
-  <div className="flex items-center gap-3 p-2  text-white border border-white rounded-xl">
+  <div className="flex items-center gap-3 p-2  text-white border border-[#FFFFFF] rounded-xl">
     <Image src={src} alt={alt} width={923} height={382}  />
     
   </div>
