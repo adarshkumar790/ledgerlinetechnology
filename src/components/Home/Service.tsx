@@ -78,9 +78,10 @@ const Services: React.FC = () => {
       </span>
 
       {/* Center text */}
-      <span className="flex items-center gap-2 font-bold">
-        <Image src="/Our.png" alt="Gear" width={220} height={200} />
-      </span>
+      <span className="flex items-center gap-2">
+      <span className="text-gray-700 font:bold text:base md:text-4xl">Our</span>
+      <span className="text-[#000000] md:text-4xl">Service</span>
+       </span>
 
       {/* Right gear icon */}
       <span className="relative text-black hidden md:block">
@@ -106,8 +107,16 @@ const Services: React.FC = () => {
         }`}
       >
         <div className="flex-1 bg-white flex items-center justify-center">
-          <Image src={service.icon} alt={service.label} width={40} height={40} />
+        <Image
+           src={service.icon}
+           alt={service.label}
+           width={40}
+           height={40}
+           className="sm:w-[20px] sm:h-[20px] lg:w-14 lg:h-14"
+          />
         </div>
+
+
         <div className="flex-1 bg-[#717171] flex items-center justify-center">
           <p className="text-sm font-bold text-white">{service.label}</p>
         </div>
