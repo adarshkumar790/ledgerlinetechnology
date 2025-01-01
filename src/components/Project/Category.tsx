@@ -42,18 +42,18 @@ const Category: React.FC = () => {
     <div className="bg-black min-h-screen flex flex-col text-white">
       {/* Navigation Bar for Categories */}
       <div className="relative py-6 md:ml-4">
-        {/* Desktop Line connecting the circles */}
-        <div className="absolute md:top-[35%] z-10 md:left-0 md:right-0 md:w-[66%] md:ml-56 md:h-[2px] md:bg-[#83868A] md:transform md:-translate-y-1/2 hidden md:block"></div>
+        {/* Line connecting the circles */}
+        <div className="absolute md:top-[25%] z-10 md:left-0 md:right-0 md:w-[66%] md:ml-56 md:h-[2px] md:bg-[#83868A] md:transform md:-translate-y-1/2 hidden md:block"></div>
 
-        {/* Mobile Vertical Line */}
-        <div className="absolute top-0 left-[30%] z-10 h-full w-[2px] bg-[#83868A] transform -translate-x-1/2 md:hidden"></div>
+        {/* Responsive vertical line adjustment */}
+        <div className="absolute md:hidden left-36 top-0 bottom-0 w-[2px] bg-[#83868A]"></div>
 
-        {/* Category Items */}
-        <div className="flex md:flex-row ml-24 flex-col items-start justify-center space-y-6 md:space-y-0 md:space-x-20">
+        {/* Vertical layout for mobile, horizontal for desktop */}
+        <div className="flex md:flex-row flex-col ml-32 md:ml-2 md:-mt-4 items-start md:items-center justify-start md:justify-center space-y-6 md:space-y-0 md:space-x-20">
           {categories.map((category, index) => (
             <div
               key={index}
-              className="flex md:flex-col flex-row items-center cursor-pointer space-x-4 md:space-x-0"
+              className="flex items-center cursor-pointer space-x-4 md:space-x-0 md:flex-col"
               onClick={() => setSelectedCategory(index)}
             >
               {/* Circle */}
@@ -73,7 +73,7 @@ const Category: React.FC = () => {
               </div>
               {/* Label */}
               <span
-                className={`text-center text-sm md:text-base ${
+                className={`text-center ${
                   selectedCategory === index
                     ? "text-[#FFFFFF] font-bold"
                     : "text-[#83868A]"
@@ -120,7 +120,7 @@ const Category: React.FC = () => {
             </div>
 
             {/* Project Title */}
-            <div className="absolute inset-x-0 bottom-0 p-2  bg-opacity-90 bg-blue-700">
+            <div className="absolute inset-x-0 bottom-0 p-2 bg-opacity-90 bg-blue-700">
               <h3 className="text-center text-lg font-bold">{project.title}</h3>
             </div>
           </div>
