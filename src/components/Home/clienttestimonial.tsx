@@ -49,7 +49,7 @@ const TestimonialSlider: React.FC = () => {
 
   return (
     <div className="bg-black text-white py-12 px-6">
-      <h2 className="text-center text-4xl text-white font-bold">
+      <h2 className="text-center md:text-4xl text-3xl text-white font-bold">
         Client Testimonials
       </h2>
       <div className="w-20 h-1 bg-gray-500 mx-auto"></div>

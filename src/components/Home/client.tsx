@@ -34,7 +34,7 @@ const CompanyPartners: React.FC = () => {
 
   return (
     <div className="bg-black text-white py-8 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-center text-4xl text-white font-bold mb-3">
+      <h2 className="text-center md:text-4xl text-3xl text-white font-bold mb-3">
         Company Partners
       </h2>
       <div className="w-20 h-1 bg-gray-500 mx-auto mb-8"></div>

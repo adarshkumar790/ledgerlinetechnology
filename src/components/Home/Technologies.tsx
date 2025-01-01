@@ -5,7 +5,7 @@ const Technologies: React.FC = () => {
     <>
     <div className="bg-black text-white py-12 p-8">
   <div className="text-center mb-8">
-    <h2 className="text-4xl font-bold">Our Technologies</h2>
+    <h2 className="md:text-4xl text-3xl font-bold">Our Technologies</h2>
     <div className="w-16 h-1 bg-gray-500 mx-auto mt-2"></div>
   </div>
 
@@ -19,7 +19,7 @@ const Technologies: React.FC = () => {
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
       <li className="text-[#383838]">✓ Secure Transactions</li>
     </ul>
-    <h3 className="text-4xl font-bold mb-4 text-center">BLOCKCHAIN</h3>
+    <h3 className="md:text-4xl text-2xl font-bold mb-4 text-center">BLOCKCHAIN</h3>
     <ul>
       <li className="text-[#383838]">✓ Decentralized Ledger</li>
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
@@ -59,7 +59,7 @@ const Technologies: React.FC = () => {
       <li className="text-[#383838]">✓ Secure Transactions</li>
       <li className="text-[#383838]">✓ Robust Performance</li>
     </ul>
-    <h3 className="text-4xl font-bold mb-4 text-center">FRONTEND</h3>
+    <h3 className="md:text-4xl text-2xl font-bold mb-4 text-center">FRONTEND</h3>
     <ul className="mt-4 text-gray-400 space-y-2 text-center">
       <li className="text-[#383838]">✓ Decentralized Ledger</li>
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
@@ -79,7 +79,7 @@ const Technologies: React.FC = () => {
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
       <li className="text-[#383838]">✓ Secure Transactions</li>
     </ul>
-    <h3 className="text-4xl font-bold mb-4 text-center">BACKEND</h3>
+    <h3 className="md:text-4xl text-2xl font-bold mb-4 text-center">BACKEND</h3>
     <ul className="mt-4 text-gray-400 space-y-2 text-center">
       <li className="text-[#383838]">✓ Decentralized Ledger</li>
       <li className="text-[#383838]">✓ Smart Contract Execution</li>
@@ -109,7 +109,7 @@ const Technologies: React.FC = () => {
       <li className="text-[#383838]">✓ Secure Data Storage</li>
       <li className="text-[#383838]">✓ Data Integrity</li>
     </ul>
-    <h3 className="text-4xl font-bold mb-4 text-center">DATABASE</h3>
+    <h3 className="md:text-4xl text-2xl font-bold mb-4 text-center">DATABASE</h3>
     <ul className="mt-4 text-gray-400 space-y-2 text-center">
       <li className="text-[#383838]">✓ High Availability</li>
       <li className="text-[#383838]">✓ Secure Transactions</li>

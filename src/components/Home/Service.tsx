@@ -80,7 +80,7 @@ const Services: React.FC = () => {
       {/* Center text */}
       <span className="flex items-center gap-2">
       <span className="text-gray-700 font:bold text:base md:text-4xl">Our</span>
-      <span className="text-[#000000] md:text-4xl">Service</span>
+      <span className="text-[#000000] md:text-4xl text-3xl">Service</span>
        </span>
 
       {/* Right gear icon */}
