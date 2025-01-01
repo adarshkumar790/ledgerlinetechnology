@@ -80,7 +80,7 @@ const Services: React.FC = () => {
       {/* Center text */}
       <span className="flex items-center gap-2">
       <span className="text-gray-700 font:bold text:base md:text-4xl">Our</span>
-      <span className="text-[#000000] md:text-4xl text-3xl">Service</span>
+      <span className="text-[#000000] md:text-4xl">Service</span>
        </span>
 
       {/* Right gear icon */}
@@ -112,7 +112,7 @@ const Services: React.FC = () => {
            alt={service.label}
            width={40}
            height={40}
-           className="sm:w-[20px] sm:h-[20px] lg:w-14 lg:h-14"
+           className="sm:w-8 w-8 h-8 sm:h-8 lg:w-10 lg:h-10"
           />
         </div>
 
@@ -156,11 +156,11 @@ const Services: React.FC = () => {
   ))}
 </div>
   {/* Cards Product Section */}
-  <div className="flex justify-center gap-0 flex-wrap">
+  <div className="flex justify-center md:gap-4 flex-wrap md:w-[90%] md:ml-[5%]">
   {filteredCards.map((card, index) => (
     <div
       key={index}
-      className="relative group hover:shadow-[#0411FF] hover:shadow-lg rounded-3xl p-1 flex flex-col items-center justify-center w-full sm:w-[calc(50%-1rem)] lg:w-[320px] max-w-[300px] h-80 mb-4 transition"
+      className="relative group hover:shadow-[#0411FF] hover:shadow-lg rounded-3xl p-1 flex flex-col items-center justify-center w-[75%] sm:w-[calc(50%-2rem)] lg:w-[340px]  md-w-[340px] h-80 mb-4 transition"
     >
       <div className="flex-1 bg-[#717171] w-full flex items-center justify-center text-white rounded-t-3xl">
         <Image src={card.icon} alt={card.title} width={80} height={65} />
