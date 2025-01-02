@@ -104,25 +104,25 @@ const Category: React.FC = () => {
 
             {/* Overlay */}
             <div
-              className={`absolute inset-0 ${project.bgClass} opacity-0 group-hover:opacity-60 transition-opacity`}
-            />
+    className={`absolute inset-0 ${project.bgClass} opacity-0 group-hover:opacity-60 transition-opacity`}
+  />
 
-            {/* Hover Actions */}
-            <div className="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <div className="flex items-center justify-center space-x-6">
-                <button className="bg-white text-black text-sm p-2 rounded-full shadow-lg">
-                  <Image src="/copy.png" alt="Share" width={20} height={20} />
-                </button>
-                <button className="bg-white text-black text-sm p-2 rounded-full shadow-lg">
-                  <Image src="/max.png" alt="Details" width={20} height={20} />
-                </button>
-              </div>
-            </div>
+  {/* Hover Actions */}
+  <div className="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
+    <div className="flex items-center justify-center space-x-6">
+      <button className="bg-white text-black text-sm p-2 rounded-full shadow-lg">
+        <Image src="/copy.png" alt="Share" width={20} height={20} />
+      </button>
+      <button className="bg-white text-black text-sm p-2 rounded-full shadow-lg">
+        <Image src="/max.png" alt="Details" width={20} height={20} />
+      </button>
+    </div>
+  </div>
 
-            {/* Project Title */}
-            <div className="absolute inset-x-0 bottom-0 p-2 bg-opacity-90 bg-blue-700">
-              <h3 className="text-center text-lg font-bold">{project.title}</h3>
-            </div>
+  {/* Project Title */}
+  <div className="absolute inset-x-0 bottom-0 p-2 bg-opacity-90 bg-blue-700 transition-transform transform group-hover:translate-y-[120%]">
+    <h3 className="text-center text-lg font-bold">{project.title}</h3>
+  </div>
           </div>
         ))}
       </div>

@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
                 height={24}
               />
               <span className="text-white">
-                901, Silver Sammway, <br /> Munjmauda, Akota, <br /> Vadodara 390020
+               901, Samanway Silver, <br /> Mujmahuda, Akota, <br /> Vadodara 390020, Gujarat, India
               </span>
             </li>
 

@@ -106,7 +106,7 @@ const ContactForm: React.FC = () => {
                 name="message"
                 className="w-full text-gray-800 mb-1 md:mb-2 border-0 border-b border-b-gray-700  focus:outline-none focus:ring-0 focus:border-b-blue-500"
                 style={{ borderRadius: "0" }}
-                rows={1}
+                rows={3}
                 required
               ></textarea>
             </div>
