@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     text: "Exceptional UI design that blends creativity with functionality, enhancing user experiences seamlessly! A perfect balance of aesthetics and usability—UI design that truly stands out.",
   },
   {
-    name: "Rishav Yadav",
+    name: "Rishabh Yadav",
     role: "",
     image: "/cl2.jpeg",
     text: "The team provided exceptional design solutions that elevated our product's usability. Their attention to detail and creativity is unmatched!",

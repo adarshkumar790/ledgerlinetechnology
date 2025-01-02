@@ -23,11 +23,17 @@ const TeamMembers: React.FC = () => {
             <img
               src="/tm1.png"
               alt="John Doe"
-              className="w-50 h-40 ml-20 object-cover"
+              className="w-50 h-40 ml-20 mt-4 object-cover"
             />
-            <div className="p-6 bg-white">
-              <h3 className="text-xl font-bold">John Doe</h3>
-              <p className="text-sm text-gray-700 mt-2">
+            <div className="relative -mt-4 z-10">
+              
+          <div className="h-16 bg-white transform skew-y-[-12deg]">
+          
+          </div>
+        </div>
+            <div className="p-4 bg-white -mt-8">
+            <h3 className="text-xl font-bold mt-6 ">John Doe</h3>
+              <p className="text-sm text-gray-700 mt-0">
                 I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
               </p>
             </div>
@@ -52,9 +58,15 @@ const TeamMembers: React.FC = () => {
               alt="John Doe"
               className="w-50 h-40 ml-20 object-cover"
             />
-            <div className="p-6 bg-white">
-              <h3 className="text-xl font-bold">John Doe</h3>
-              <p className="text-sm text-gray-700 mt-2">
+             <div className="relative -mt-4 z-10">
+              
+              <div className="h-16 bg-white transform skew-y-[-12deg]">
+              
+              </div>
+            </div>
+            <div className="p-5 bg-white -mt-8">
+              <h3 className="text-xl font-bold mt-8">John Doe</h3>
+              <p className="text-sm text-gray-700 ">
                 I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
               </p>
             </div>
@@ -110,8 +122,14 @@ const TeamMembers: React.FC = () => {
           alt="John Doe"
           className="w-full h-40 object-cover"
         />
-        <div className="p-4 bg-white">
-          <h3 className="text-lg font-bold">John Doe</h3>
+         <div className="relative -mt-4 z-10">
+              
+              <div className="h-12 bg-white transform skew-y-[-12deg]">
+              
+              </div>
+            </div>
+        <div className="p-4 bg-white -mt-5">
+          <h3 className="text-lg font-bold mt-4">John Doe</h3>
           <p className="text-sm text-gray-700 mt-1">
             I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
           </p>
@@ -136,13 +154,19 @@ const TeamMembers: React.FC = () => {
           alt="Alex Smith"
           className="w-full h-40 object-cover"
         />
-        <div className="p-6 bg-white">
+         <div className="relative -mt-4 z-10">
+              
+              <div className="h-12 bg-white transform skew-y-[-12deg]">
+              
+              </div>
+            </div>
+        <div className="p-6 bg-white -mt-5">
           <h3 className="text-lg font-bold">Alex Smith</h3>
-          <p className="text-sm text-gray-700 mt-1">
+          <p className="text-sm text-gray-700 mt-6">
             I am Alex Smith, a full-stack developer who builds efficient and scalable web applications.
           </p>
         </div>
-        <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
+        <div className="flex justify-center space-x-3 bg-[#83868A] py-2 ">
           <a href="#" className="hover:text-blue-500">
             <Image src="/ln.png" alt="LinkedIn" width={20} height={20} />
           </a>
