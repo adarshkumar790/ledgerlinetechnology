@@ -80,7 +80,7 @@ const TeamMembers: React.FC = () => {
 
 
 {/* For Mobile */}
-<div className="min-h-screen bg-black py-12 px-4 flex flex-col items-center lg:hidden">
+<div className="min-h-screen bg-black py-12 px-2 flex flex-col items-center lg:hidden">
   {/* Section Title */}
   <div className="relative text-center text-2xl font-bold text-black mb-8 bg-white w-full max-w-md sm:max-w-none mx-auto p-6 border border-white">
     <h2>Our Best Team Members</h2>
@@ -90,19 +90,19 @@ const TeamMembers: React.FC = () => {
   {/* Team Member Cards Container */}
   <div className="relative w-full flex flex-col items-center">
     {/* Carousel Buttons - Outside the Cards */}
-    <div className="absolute top-1/2 left-[-17px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
+    <div className="absolute top-1/2 left-[-15px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
       <button>
         <Image src="/left.png" alt="Left Arrow" width={20} height={20} />
       </button>
     </div>
-    <div className="absolute top-1/2 right-[-17px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
+    <div className="absolute top-1/2 right-[-15px] transform -translate-y-1/2 text-black hover:bg-gray-600 z-10">
       <button>
         <Image src="/right.png" alt="Right Arrow" width={20} height={20} />
       </button>
     </div>
 
     {/* Team Member Cards */}
-    <div className="relative -mt-12 flex overflow-x-scroll space-x-4 snap-x snap-mandatory w-full">
+    <div className="relative -mt-12 flex overflow-x-scroll space-x-1 snap-x snap-mandatory w-full">
       {/* Card 1 */}
       <div className="snap-center bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
         <img

@@ -107,14 +107,15 @@ const Services: React.FC = () => {
         }`}
       >
         <div className="flex-1 bg-white flex items-center justify-center">
-        <Image
-           src={service.icon}
-           alt={service.label}
-           width={40}
-           height={40}
-           className="sm:w-8 w-8 h-8 sm:h-8 lg:w-10 lg:h-10"
-          />
-        </div>
+       <Image
+       src={service.icon}
+       alt={service.label}
+       width={20}
+        height={20}
+       className="w-2 h-2 sm:w-4 sm:h-4 md:w-8 md:h-8 lg:w-10 lg:h-10"
+       />
+      </div>
+
 
 
         <div className="flex-1 bg-[#717171] flex items-center justify-center">
