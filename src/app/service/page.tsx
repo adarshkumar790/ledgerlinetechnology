@@ -24,9 +24,9 @@ export default function Services() {
           {/* Right Side */}
           <div className="md:w-1/2 text-center md:text-left mr-6">
             <p className="md:mb-6 mb-2 text-[#000000]">
-              We provide a range of IT services to help businesses leverage technology effectively. Our offerings
-              include cloud computing for scalable and cost-efficient solutions, cybersecurity to protect systems
-              and data, and software development for tailored applications.
+            Expertise in blockchain technology, DeFi, and IT services. A client-centric approach that ensures tailored solutions.
+            Proven track record of delivering secure, scalable, and innovative projects.Emphasis on quality, transparency, and long-term partnerships.
+
             </p>
             <div className="flex justify-center md:justify-start">
               <button className="bg-[#83868A] text-[#FFFFFF] font-bold py-1 px-2 hover:bg-black flex items-center gap-2">

@@ -152,6 +152,20 @@ const Services: React.FC = () => {
       title: 'DeFi Wallet Integrations:', 
       description: 'We integrate wallets for secure DeFi asset management.',
     },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'COIN DEVELOPMENT', 
+      title: 'Coin Creations', 
+      description: 'We design and develop custom blockchain coins tailored to your specific business needs.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'COIN DEVELOPMENT', 
+      title: 'Tokenomics & Coin Structuring', 
+      description: 'We offer expertise in designing tokenomics and coin structures for a sustainable and scalable ecosystem.',
+    },
     
   ];
 
