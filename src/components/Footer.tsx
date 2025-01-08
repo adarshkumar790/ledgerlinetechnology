@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
                 width={24}
                 height={24}
               />
-              <span className="text-white">+91 12345 67890</span>
+              <span className="text-white">+91 2657964445</span>
             </li>
 
             {/* Email */}
@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
                 width={24}
                 height={24}
               />
-              <span className="text-white">contact@ledgerline.com</span>
+              <span className="text-white">contact@ledgerlinetech.com</span>
             </li>
           </ul>
         </div>

@@ -23,3 +23,26 @@ body {
 body, .home-page {
   margin-top: 0 !important;
 }
+
+/* Define the slide-in animation */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+  }
+  50% {
+    transform: translateX(0); /* Move to the center */
+  }
+  100% {
+    transform: translateX(0); /* Stay in the center */
+  }
+}
+
+/* Apply the slide-in animation */
+.animate-slideIn {
+  animation: slideIn 16s ease-out forwards; /* 3 seconds duration */
+}
+
+/* Gradient overlay */
+.bg-gradient-to-t {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* gradient from black to transparent */
+}
