@@ -31,13 +31,7 @@ const BlogCard: React.FC = () => {
           <h2 className="font-bold mb-1 text-lg sm:text-xl">
           Blockchain Solutions
           </h2>
-          <p className="text-gray-700 mb-1 text-sm sm:xs">
-          1.Custom Blockchain Development: Tailored blockchain networks for businesses. <br/>
-          2.Smart Contract Development: Secure and automated process workflows. <br/>
-          3.Decentralized Finance (DeFi) Platforms: Build platforms for decentralized financial ecosystems. <br/>
-          4.Tokenomics and Token Management: Design and manage blockchain tokens. <br/>
-          5.Blockchain Security: Advanced security solutions for enhanced operational efficiency.
-          </p>
+          <p className="text-gray-700 mb-1 text-sm sm:text-bas"> 1. Custom Blockchain Solutions: Develop personalized blockchain networks for businesses. <br/> 2. Smart Contract Creation: Enable secure and automated workflow processes. <br/> 3. Decentralized Finance (DeFi) Solutions: Create platforms for decentralized financial ecosystems. <br/> 4. Tokenomics & Token Administration: Develop and manage blockchain-based tokens. <br/> 5. Blockchain Security Solutions: Implement advanced security measures to boost operational effectiveness. </p>
           <button className="flex items-center bg-[#0411FF] text-white px-2 py-1 mt-auto self-end md:self-start hover:bg-blue-700">
             Read More
             <span className="ml-2">
