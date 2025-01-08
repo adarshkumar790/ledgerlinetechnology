@@ -10,7 +10,7 @@ import TestimonialSlider from '@/components/Home/clienttestimonial';
 import React, { useEffect, useRef } from 'react';
 
 const Home = () => {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);  // Explicitly type the videoRef
 
   useEffect(() => {
     if (videoRef.current) {
