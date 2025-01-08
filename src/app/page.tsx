@@ -39,7 +39,8 @@ const Home = () => {
 
         <main className="flex items-center justify-center h-full">
           <div className="relative w-full h-full overflow-hidden">
-            <div className="absolute text-gray-400 text-7xl inset-0 ml-40 mt-16 animate-slideIn">
+            {/* Apply the animation class here */}
+            <div className="absolute text-gray-400 text-7xl inset-0 ml-40 font-bold mt-24 animate-slideInFromBehind">
               LEDGERLINE TECHNOLOGY
             </div>
           </div>
