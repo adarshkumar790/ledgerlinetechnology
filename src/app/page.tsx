@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 0.4;  // Adjust the speed here (e.g., 0.5 for slower speed)
+      videoRef.current.playbackRate = 0.2;  // Adjust the speed here (e.g., 0.5 for slower speed)
     }
   }, []);
 
@@ -38,9 +38,9 @@ const Home = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-transparent to-transparent opacity-50"></div>
 
         <main className="flex items-center justify-center h-full">
-          <div className="relative w-full h-full overflow-hidden">
+          <div className="relative w-full h-full overflow-hidden flex items-center justify-center">
             {/* Apply the animation class here */}
-            <div className="absolute text-gray-400 text-7xl inset-0 ml-40 font-bold mt-24 animate-slideInFromBehind">
+            <div className="absolute text-gray-400 text-5xl md:text-6xl lg:text-7xl font-bold animate-slideInFromBehind px-4">
               LEDGERLINE TECHNOLOGY
             </div>
           </div>

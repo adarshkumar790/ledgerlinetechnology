@@ -117,27 +117,7 @@ const Services: React.FC = () => {
       title: 'WEB Developemnt:', 
       description: 'We create decentralized applications (dApps) on blockchain for enhanced user control.',
     },
-    { 
-      icon: '/CE5.png', 
-      number: '0.6', 
-      category: 'DEFI', 
-      title: 'DeFi Wallet Integrations:', 
-      description: 'We integrate wallets for secure DeFi asset management.',
-    },
-    { 
-      icon: '/CE5.png', 
-      number: '0.6', 
-      category: 'DEFI', 
-      title: 'DeFi Wallet Integrations:', 
-      description: 'We integrate wallets for secure DeFi asset management.',
-    },
-    { 
-      icon: '/CE5.png', 
-      number: '0.6', 
-      category: 'DEFI', 
-      title: 'DeFi Wallet Integrations:', 
-      description: 'We integrate wallets for secure DeFi asset management.',
-    },
+    
     { 
       icon: '/CE5.png', 
       number: '0.6', 

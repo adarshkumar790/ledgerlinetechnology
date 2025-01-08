@@ -27,16 +27,18 @@ const BlogCard: React.FC = () => {
         </div>
 
         {/* Content Section */}
-        <div className="flex flex-col justify-center bg-white md:p-6 pt-20 pl-2 pr-2 pb-8 shadow-lg relative lg:-left-28 lg:-mb-12 lg:z-10 mt-8 lg:w-5/7 text-black h-auto sm:mt-12 lg:mt-48">
-          <h2 className="font-bold mb-4 text-lg sm:text-xl">
-            Unlock Telegram’s Potential: A Guide to Mini Apps
+        <div className="flex flex-col justify-center bg-white md:p-2 pt-20 pl-2 pr-2 pb-8 shadow-lg relative lg:-left-28 lg:-mb-12 lg:z-10 mt-8 lg:w-5/7 text-black h-auto sm:mt-12 lg:mt-48">
+          <h2 className="font-bold mb-1 text-lg sm:text-xl">
+          Blockchain Solutions
           </h2>
-          <p className="text-gray-700 mb-6 text-sm sm:text-base">
-            Exploring the World of Telegram Mini Apps: Enhancing User Experience
-            and Interaction. Introduction Telegram, a popular messaging app
-            known for...
+          <p className="text-gray-700 mb-1 text-sm sm:xs">
+          1.Custom Blockchain Development: Tailored blockchain networks for businesses. <br/>
+          2.Smart Contract Development: Secure and automated process workflows. <br/>
+          3.Decentralized Finance (DeFi) Platforms: Build platforms for decentralized financial ecosystems. <br/>
+          4.Tokenomics and Token Management: Design and manage blockchain tokens. <br/>
+          5.Blockchain Security: Advanced security solutions for enhanced operational efficiency.
           </p>
-          <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 mt-auto self-end md:self-start hover:bg-blue-700">
+          <button className="flex items-center bg-[#0411FF] text-white px-2 py-1 mt-auto self-end md:self-start hover:bg-blue-700">
             Read More
             <span className="ml-2">
               <Image src="/blogarrow.png" alt="arrow" width={20} height={20} />
