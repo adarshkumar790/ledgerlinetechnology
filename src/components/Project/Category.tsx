@@ -26,11 +26,11 @@ const projects = [
   },
 ];
 
-// Main Component
-const Category: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState(0); // Default to "All" category
 
-  // Filter projects based on selected category
+const Category: React.FC = () => {
+  const [selectedCategory, setSelectedCategory] = useState(0);
+
+  
   const filteredProjects =
     categories[selectedCategory] === "All"
       ? projects

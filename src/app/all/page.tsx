@@ -1,67 +1,50 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import {  FaTwitter, FaInstagram, FaTelegram } from "react-icons/fa";
 
-const ProfileCard: React.FC = () => {
+const ComingSoon: React.FC = () => {
   return (
-    <div className="w-full max-w-sm mx-auto">
-      <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
-        {/* Image Section */}
-        <div className="relative w-full h-48">
-          <Image
-            src="/tm1.png" // Replace with your image path
-            alt="Alex Smith"
-            layout="fill"
-            objectFit="cover"
-            className="absolute inset-0"
-          />
-        </div>
-
-        {/* Skewed White Border */}
-        <div className="relative -mt-4 z-10">
-          <div className="h-16 bg-white transform skew-y-[-8deg]"></div>
-        </div>
-
-        {/* Content Section */}
-        <div className="bg-white p-2 text-center">
-          {/* Name */}
-          <h2 className="text-xl font-bold text-gray-800">Alex Smith</h2>
-          <div className="w-12 h-1 bg-gray-800 mx-auto my-2"></div>
-
-          {/* Description */}
-          <p className="text-sm text-gray-600">
-            I am John Alex Smith, a detail-oriented web developer committed to
-            coding clean, efficient, and visually appealing websites.
-          </p>
-        </div>
-
-        {/* Footer Section */}
-        <div className="bg-gray-100 py-4 flex justify-center items-center space-x-4">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900">
+      <div className="text-center px-4">
+        <h1 className="text-white text-5xl md:text-9xl md:text-gray-300 font-extrabold mb-4">
+          COMING SOON
+        </h1>
+        <p className="text-gray-400 text-lg md:text-2xl font-semibold mb-8">
+          We are building something amazing. Stay connected for updates!
+          We are building something amazing. Stay connected for updates!
+          We are building something amazing. Stay connected for updates!
+        </p>
+        <div className="flex justify-center mt-4 space-x-6 mb-8">
           <a
             href="#"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
-            aria-label="LinkedIn"
-          >
-            <i className="fab fa-linkedin text-xl"></i>
-          </a>
-          <a
-            href="#"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
+            className="text-gray-200 hover:text-white transition duration-300 text-4xl  md:text-5xl"
             aria-label="Facebook"
           >
-            <i className="fab fa-facebook text-xl"></i>
+            <FaTelegram />
           </a>
           <a
             href="#"
-            className="text-gray-600 hover:text-gray-900 transition-colors"
+            className="text-gray-300 hover:text-white transition duration-300 text-4xl md:text-5xl"
             aria-label="Twitter"
           >
-            <i className="fab fa-twitter text-xl"></i>
+            <FaTwitter />
+          </a>
+          <a
+            href="#"
+            className="text-gray-300 hover:text-white transition duration-300 text-4xl md:text-5xl"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
           </a>
         </div>
+        {/* <button
+          className="px-6 py-2 text-lg md:text-m font-bold text-white bg-gray-600 hover:bg-indigo-700 rounded-lg transition duration-300"
+        >
+          Submit
+        </button> */}
       </div>
     </div>
   );
 };
 
-export default ProfileCard;
+export default ComingSoon;

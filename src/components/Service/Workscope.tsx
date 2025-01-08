@@ -33,7 +33,7 @@ const ScopeWork: FC = () => {
             </div>
             <h3 className="text-white text-xl font-semibold mb-2">Our Solution</h3>
             <p className="text-gray-300 text-sm mt-1">
-              Our solutions are built on a foundation of cutting-edge technology, expert development practices, and a deep understanding of our clients' business needs.
+            To revolutionize the IT landscape by delivering innovative solutions that empower businesses to exceed their potential and achieve their goals.
             </p>
           </div>
 
@@ -42,10 +42,9 @@ const ScopeWork: FC = () => {
             <div className="text-white text-4xl mb-4 p-5 rounded-full bg-white">
               <Image src="/job3.png" alt="Briefcase" width={40} height={40} />
             </div>
-            <h3 className="text-white text-xl font-semibold mb-2">The Platform</h3>
+            <h3 className="text-white text-xl font-semibold mb-2">Our Vision</h3>
             <p className="text-gray-300 text-sm mt-1">
-              Our solutions are built on a foundation of cutting-edge technology, expert development practices, and a deep understanding of our clients' business needs.
-            </p>
+            To become a global leader in blockchain and IT services, recognized for excellence, innovation, and reliability.            </p>
           </div>
         </div>
       </div>

@@ -24,43 +24,135 @@ const Services: React.FC = () => {
       number: '0.1', 
       category: 'EXCHANGE', 
       title: 'Crypto Exchange', 
-      description: 'A platform for exchanging cryptocurrencies with low fees and high liquidity.', 
+      description: 'A crypto exchange enables trading cryptocurrencies securely.', 
     },
-    { 
-      icon: '/CE1.png', 
-      number: '0.2', 
-      category: 'EXCHANGE', 
-      title: 'Crypto Ed', 
-      description: 'A platform for exchanging cryptocurrencies with low fees and high liquidity.', 
-    },
+    // { 
+    //   icon: '/CE1.png', 
+    //   number: '0.2', 
+    //   category: 'EXCHANGE', 
+    //   title: 'Crypto Ed', 
+    //   description: 'A platform for exchanging cryptocurrencies with low fees and high liquidity.', 
+    // },
     { 
       icon: '/EC2.png', 
       number: '0.3', 
       category: 'EXCHANGE', 
       title: 'Hybrid Exchange', 
-      description: 'A platform for exchanging cryptocurrencies with low fees and high liquidity.', 
+      description: 'A hybrid exchange merges centralized speed with decentralized security.', 
     },
     { 
       icon: '/CE3.png', 
       number: '0.4', 
       category: 'EXCHANGE', 
       title: 'Margin Trading Exchange', 
-      description: 'A platform for exchanging cryptocurrencies with low fees and high liquidity.', 
+      description: 'A platform for exchanging crypto -currencies with low fees and high liquidity.', 
     },
     { 
       icon: '/CE4.png', 
       number: '0.5', 
       category: 'EXCHANGE', 
       title: 'Decentralized Exchange', 
-      description: 'A secure and easy-to-use wallet for managing your crypto assets. blockchain.',
+      description: 'A decentralized exchange allows peer-to-peer crypto trading without intermediaries.',
     },
     { 
       icon: '/CE5.png', 
       number: '0.6', 
       category: 'EXCHANGE', 
       title: 'Security Exchange', 
-      description: 'A marketplace for creating, buying, and selling NFTs with a user-friendly interface.',
+      description: 'A security exchange facilitates the trading of financial securities like stocks and bonds.',
     },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'WALLET', 
+      title: 'WALLET SOLUTIONS', 
+      description: 'We provide secure, customizable blockchain wallets for safe storage and seamless digital asset transactions.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'NFT', 
+      title: 'NFT Marketplace Development', 
+      description: 'We create secure, scalable NFT marketplaces for buying, selling, and auctioning digital assets.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'NFT', 
+      title: 'NFT Minting Solutions', 
+      description: 'We offer customizable services to tokenize digital art, music, and other assets as NFTs.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'NFT', 
+      title: 'NFT Integrations Solutions', 
+      description: 'We integrate NFTs into platforms, enhancing user experiences with unique digital assets.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'NFT', 
+      title: 'NFT Gaming SOLUTIONS', 
+      description: 'We develop blockchain-based games where players can own and trade in-game assets as NFTs.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'DEFI', 
+      title: 'DeFi Platform Development', 
+      description: 'We build decentralized platforms for lending, borrowing, and yield farming.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'DEFI', 
+      title: 'DeFi Token Solutions', 
+      description: 'We create and manage tokens for seamless DeFi transactions.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'DEFI', 
+      title: 'DeFi Smart Contaract', 
+      description: 'We develop secure smart contracts for automated financial processes.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'DEFI', 
+      title: 'DeFi Wallet Integrations:', 
+      description: 'We integrate wallets for secure DeFi asset management.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'WEB3', 
+      title: 'WEB Developemnt:', 
+      description: 'We create decentralized applications (dApps) on blockchain for enhanced user control.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'DEFI', 
+      title: 'DeFi Wallet Integrations:', 
+      description: 'We integrate wallets for secure DeFi asset management.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'DEFI', 
+      title: 'DeFi Wallet Integrations:', 
+      description: 'We integrate wallets for secure DeFi asset management.',
+    },
+    { 
+      icon: '/CE5.png', 
+      number: '0.6', 
+      category: 'DEFI', 
+      title: 'DeFi Wallet Integrations:', 
+      description: 'We integrate wallets for secure DeFi asset management.',
+    },
+    
   ];
 
   const filteredCards = selectedService
@@ -172,13 +264,13 @@ const Services: React.FC = () => {
           {card.number}
         </span>
 
-        <h3 className="text-xl font-bold mt-4 text-[#717171] group-hover:text-[#0411FF] text-left w-full">
+        <h3 className="text-xl font-bold  text-[#717171] group-hover:text-[#0411FF] text-left w-full">
           {card.title}
         </h3>
-        <p className="md-text-xs text-[#000000] mt-2 text-left w-full font-light">
+        <p className="md-text-xs text-[#000000]  text-left w-full font-light">
           {card.description}
         </p>
-        <button className="mt-2 px-6 py-2 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
+        <button className="mt-1 px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
           Learn More
           <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
         </button>

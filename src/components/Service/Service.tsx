@@ -18,12 +18,15 @@ const Serproject: FC = () => {
           <div className="bg-[[#19191A]] rounded-full w-12 h-12 flex items-center justify-center mb-4">
             <Image src="/coin4.png" alt="Icon 1" width={30} height={30} />
           </div>
-          <h3 className="text-sm text-[#AFADAD] hover:text-[#000000] font-semibold mb-2">Dapp Development</h3>
+          <h3 className="text-sm text-[#AFADAD] hover:text-[#000000] font-semibold mb-2">Blockchain Solutions</h3>
           <p className="text-[#AFADAD] text-sm hover:text-[#000000] text-center">
-            Dapp development, or decentralized application development, is the process of building applications that run on a blockchain network, using smart contracts as the core logic behind the application.
+          Custom Blockchain Development: Tailored blockchain networks for businesses.
+          Smart Contract Development: Secure and automated process workflows.
+          Decentralized Finance (DeFi) Platforms: Build platforms for decentralized financial ecosystems.
+          Tokenomics and Token Management: Design and manage blockchain tokens.
+          Blockchain Security: Advanced security solutions for enhanced operational efficiency.
           </p>
         </div>
-
         <div className="bg-[#19191A] hover:bg-white md:w-full w-[85%] md:ml-0 ml-7  rounded-2xl p-8 shadow-lg flex flex-col items-center border border-gray-200">
         <h6 className="mb-4 px-3 py-1 bg-[#393D42] text-white">2.</h6>
           <div className="bg-[[#19191A]] rounded-full w-12 h-12 flex items-center justify-center mb-4">
