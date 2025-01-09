@@ -129,7 +129,7 @@ const TeamMembers: React.FC = () => {
         <div className="p-4 bg-white -mt-5">
           <h3 className="text-sm font-bold mt-5">Dipak Patel</h3>
           <p className="text-sm text-gray-700 mt-1 mb-12">
-          Meet John Doe and Alex Smith, our expert team members who excel at delivering impactful designs and efficient websites.
+          Leading the strategic vision, Dipak drives the company towards innovation and excellence, ensuring long-term growth and success.  
           </p>
         </div>
         <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
