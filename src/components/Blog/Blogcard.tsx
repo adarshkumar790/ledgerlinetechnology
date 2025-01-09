@@ -8,7 +8,7 @@ const BlogCard: React.FC = () => {
         {/* Image Section */}
         <div className="relative">
           <Image
-            src="/blog4.png"
+            src="/blockchainsolution.png"
             alt="Team Meeting"
             width={700}
             height={500}
