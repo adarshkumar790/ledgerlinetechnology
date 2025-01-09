@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-// Categories and Projects Data
+
 const categories = ["All", "Crypto Wallet", "Exchange", "NFTs", "Dapp", "DeFi"];
 
 const projects = [
@@ -48,7 +48,7 @@ const Category: React.FC = () => {
       
         <div className="absolute md:hidden  left-36 top-0 bottom-0 w-[2px] bg-[#83868A]"></div>
 
-        {/* Vertical layout for mobile, horizontal for desktop */}
+        
         <div className="flex md:flex-row flex-col ml-32 md:ml-2 md:-mt-4 items-start md:items-center justify-start md:justify-center space-y-6 md:space-y-0 md:space-x-20">
           {categories.map((category, index) => (
             <div
@@ -86,14 +86,14 @@ const Category: React.FC = () => {
         </div>
       </div>
 
-      {/* Projects Section */}
+    
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 px-4 w-[85%] md:max-w-3xl mx-auto flex-grow">
         {filteredProjects.map((project, index) => (
           <div
             key={index}
             className="relative overflow-hidden shadow-lg group"
           >
-            {/* Project Image */}
+            
             <Image
               src={project.imgSrc}
               alt={project.title}
