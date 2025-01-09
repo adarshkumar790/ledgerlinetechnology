@@ -11,23 +11,42 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Dipak Patel",
-    role: "UI/UX Designer",
-    image: "/cl1.jpeg",
-    text: "Exceptional UI design that blends creativity with functionality, enhancing user experiences seamlessly! A perfect balance of aesthetics and usability—UI design that truly stands out.",
-  },
-  {
-    name: "Rishabh Yadav",
-    role: "",
-    image: "/cl2.jpeg",
-    text: "The team provided exceptional design solutions that elevated our product's usability. Their attention to detail and creativity is unmatched!",
-  },
-  {
-    name: "Mayank Sir",
+    name: "Mayank Kumar",
     role: "Senior Blockchain Developer",
-    image: "/cl3.jpeg",
-    text: "Amazing experience! The designs were not only visually stunning but also user-friendly and functional.",
+    image: "/mayank.png",
+    text: "A Senior Developer, excels in blockchain technology, crafting secure and scalable decentralized solutions.",
   },
+  // {
+  //   name: "Shailaya Raj",
+  //   role: "Fullstack Developer",
+  //   image: "/",
+  //   text: "Amazing experience! The designs were not only visually stunning but also user-friendly and functional.",
+  // },
+  {
+    name: "Adarsh Kumar",
+    role: "Blockchain Developer",
+    image: "/adarsh.png",
+    text: "A Blockchain Developer with a growing expertise in building decentralized applications and smart contracts.",
+  },
+  {
+    name: "Sneha Chouhan",
+    role: "UX Designer",
+    image: "/sneha.png",
+    text: "A UX designer focuses on creating intuitive and engaging user experiences by researching, designing, and testing digital interfaces.",
+  },
+  {
+    name: "Mital Gohil",
+    role: "Developer",
+    image: "/mital.png",
+    text: "A software developer designs, codes, tests, and maintains software applications to meet user needs and ensure functionality across various platforms.",
+  },
+  {
+    name: "Dhara Gohil",
+    role: "Accountant",
+    image: "/dhara.png",
+    text: "An accountant manages financial records, prepares reports, ensures compliance with regulations, and provides insights to support business decision-making.",
+  },
+  
 ];
 
 const TestimonialSlider: React.FC = () => {
@@ -50,7 +69,7 @@ const TestimonialSlider: React.FC = () => {
   return (
     <div className="bg-black text-white py-12 px-6">
       <h2 className="text-center md:text-4xl text-3xl text-white font-bold">
-        Client Testimonials
+        Team Testimonials
       </h2>
       <div className="w-20 h-1 bg-gray-500 mx-auto"></div>
       <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center space-y-6 lg:space-y-0 lg:space-x-6 max-w-5xl mx-auto relative mt-20">
@@ -68,15 +87,21 @@ const TestimonialSlider: React.FC = () => {
         >
           {/* User Information */}
           <div className="w-full lg:w-auto flex justify-center lg:block">
-            <div className="bg-gray-700 rounded-xl p-6 shadow-lg w-[200px] h-[220px]">
-              <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-md mb-4 mx-auto">
-                <img
-                  src={currentTestimonial.image}
-                  alt={currentTestimonial.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-md text-white font-bold text-center lg:text-left">
+            <div className="bg-gray-700 rounded-xl p-8 shadow-lg w-[200px]  h-[220px]">
+            {/* <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-md mb-4 mx-auto"> */}
+  <img
+    src={currentTestimonial.image}
+    alt={currentTestimonial.name}
+    className="w-full h-full md:-mt-8 object-cover"
+    style={{
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover', // Ensure the image is not distorted.
+    }}
+  />
+{/* </div> */}
+
+              <h3 className="text-md text-white font-bold text-center md:-mt-4 lg:text-left">
                 {currentTestimonial.name}
               </h3>
               <p className="text-sm text-white text-center lg:text-left mt-1">
