@@ -7,11 +7,11 @@ const CompanyPartners: React.FC = () => {
 
   // Array of logos
   const logos = [
-    { src: "/co1.png", alt: "CodeExceptional 1", width: 120, height: 100 },
-    { src: "/co2.png", alt: "CodeExceptional 2", width: 120, height: 100 },
-    { src: "/co3.png", alt: "CodeExceptional 3", width: 120, height: 100 },
-    { src: "/co4.png", alt: "CodeExceptional 4", width: 120, height: 100 },
-    { src: "/co5.png", alt: "CodeExceptional 5", width: 120, height: 100 },
+    { src: "/partner1.png", alt: "CodeExceptional 1", width: 120, height: 100 },
+    { src: "/partner2.png", alt: "CodeExceptional 2", width: 120, height: 100 },
+    { src: "/partner3.png", alt: "CodeExceptional 3", width: 120, height: 100 },
+    // { src: "/co4.png", alt: "CodeExceptional 4", width: 120, height: 100 },
+    // { src: "/co5.png", alt: "CodeExceptional 5", width: 120, height: 100 },
   ];
 
   // Items per page for mobile view
@@ -48,7 +48,7 @@ const CompanyPartners: React.FC = () => {
               alt={logo.alt}
               width={150}
               height={130}
-              className="rounded-xl"
+              className="rounded-xl md:mt-12"
             />
           ))}
         </div>
