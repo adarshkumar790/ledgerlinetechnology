@@ -32,10 +32,9 @@ const TeamMembers: React.FC = () => {
           </div>
         </div>
             <div className="p-4 bg-white -mt-8">
-            <h3 className="text-xl font-bold mt-6 ">John Doe</h3>
+            <h3 className="text-sm font-bold mt-6 ml-2">Dipak Patel (CEO)</h3>
               <p className="text-sm text-gray-700 mt-0">
-                I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
-              </p>
+              Leading the strategic vision, Dipak drives the company towards innovation and excellence, ensuring long-term growth and success.              </p>
             </div>
             <div className="flex flex-center space-x-3 text-white bg-[#83868A] mt-4 mb-2 ml-20">
               <a href="#" className="hover:text-blue-500">
@@ -65,10 +64,9 @@ const TeamMembers: React.FC = () => {
               </div>
             </div>
             <div className="p-5 bg-white -mt-8">
-              <h3 className="text-xl font-bold mt-8">John Doe</h3>
+              <h3 className="text-sm font-bold mt-8">Rishabh Yadav (COO)</h3>
               <p className="text-sm text-gray-700 ">
-                I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
-              </p>
+              Overseeing daily operations and ensuring exceptional project delivery, Rishabh ensures seamless execution and customer satisfaction.              </p>
             </div>
             <div className="flex flex-center space-x-3 text-white bg-[#83868A] mt-4 mb-2 ml-20">
               <a href="#" className="hover:text-blue-500">
@@ -129,9 +127,9 @@ const TeamMembers: React.FC = () => {
               </div>
             </div>
         <div className="p-4 bg-white -mt-5">
-          <h3 className="text-lg font-bold mt-4">John Doe</h3>
-          <p className="text-sm text-gray-700 mt-1">
-            I am John Doe, a creative UI/UX designer who transforms complex ideas into intuitive and impactful designs.
+          <h3 className="text-sm font-bold mt-5">Dipak Patel</h3>
+          <p className="text-sm text-gray-700 mt-1 mb-12">
+          Meet John Doe and Alex Smith, our expert team members who excel at delivering impactful designs and efficient websites.
           </p>
         </div>
         <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
@@ -160,10 +158,10 @@ const TeamMembers: React.FC = () => {
               
               </div>
             </div>
-        <div className="p-6 bg-white -mt-5">
-          <h3 className="text-lg font-bold">Alex Smith</h3>
-          <p className="text-sm text-gray-700 mt-6">
-            I am Alex Smith, a full-stack developer who builds efficient and scalable web applications.
+        <div className="p-6 bg-white -mt-6">
+          <h3 className="text-sm font-bold ml-2 mt-4">Rishabh Yadav</h3>
+          <p className="text-sm text-gray-700 mb-1">
+          Overseeing daily operations and ensuring exceptional project delivery, Rishabh ensures seamless execution and customer satisfaction.
           </p>
         </div>
         <div className="flex justify-center space-x-3 bg-[#83868A] py-2 ">
