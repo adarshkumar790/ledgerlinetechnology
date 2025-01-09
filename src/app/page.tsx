@@ -10,11 +10,11 @@ import TestimonialSlider from '@/components/Home/clienttestimonial';
 import React, { useEffect, useRef } from 'react';
 
 const Home = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);  // Explicitly type the videoRef
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 0.2;  // Adjust the speed here (e.g., 0.5 for slower speed)
+      videoRef.current.playbackRate = 0.2;
     }
   }, []);
 
@@ -34,12 +34,12 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
         
-        {/* Gradient overlay */}
+  
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-transparent to-transparent opacity-50"></div>
 
         <main className="flex items-center justify-center h-full">
           <div className="relative w-full h-full overflow-hidden flex items-center justify-center">
-            {/* Apply the animation class here */}
+            
             <div className="absolute text-gray-400 text-5xl md:text-6xl lg:text-7xl font-bold animate-slideInFromBehind px-4">
               LEDGERLINE TECHNOLOGY
             </div>

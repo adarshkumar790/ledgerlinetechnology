@@ -40,12 +40,12 @@ const Category: React.FC = () => {
 
   return (
     <div className="bg-black min-h-screen flex flex-col text-white">
-      {/* Navigation Bar for Categories */}
+      
       <div className="relative py-6 md:ml-4">
-        {/* Line connecting the circles */}
+        
         <div className="absolute md:top-[22%]  md:left-0 md:right-0 md:w-[66%] md:ml-56 md:h-[2px] md:bg-[#83868A] md:transform md:-translate-y-1/2 hidden md:block"></div>
 
-        {/* Responsive vertical line adjustment */}
+      
         <div className="absolute md:hidden  left-36 top-0 bottom-0 w-[2px] bg-[#83868A]"></div>
 
         {/* Vertical layout for mobile, horizontal for desktop */}

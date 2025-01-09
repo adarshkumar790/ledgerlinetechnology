@@ -16,12 +16,6 @@ const testimonials: Testimonial[] = [
     image: "/mayank.png",
     text: "A Senior Developer, excels in blockchain technology, crafting secure and scalable decentralized solutions.",
   },
-  // {
-  //   name: "Shailaya Raj",
-  //   role: "Fullstack Developer",
-  //   image: "/",
-  //   text: "Amazing experience! The designs were not only visually stunning but also user-friendly and functional.",
-  // },
   {
     name: "Adarsh Kumar",
     role: "Blockchain Developer",

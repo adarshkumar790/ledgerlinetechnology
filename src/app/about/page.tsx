@@ -8,9 +8,9 @@ const Banner: React.FC = () => {
   return (
     <>
       <Navbar />
-      {/* Banner Section */}
+  
       <div className="relative w-full md:h-[70vh] h-[45vh] bg-black text-white overflow-hidden">
-        {/* Background Image */}
+        
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -44,7 +44,7 @@ const Banner: React.FC = () => {
           {/* Stat 1 */}
           <div className="flex flex-col items-center w-full md:w-1/3 mb-0 md:mb-0">
             <div className="flex items-center space-x-0 md:space-x-8">
-              {/* Hide image on mobile (default) and show on medium screens and above (md:block) */}
+          
               <img src="/plp.png" alt="Client Retention" className="w-8 h-8 md:w-10 md:h-10 hidden md:block" />
               <p className="text-2xl md:text-5xl font-bold">100%</p>
             </div>
