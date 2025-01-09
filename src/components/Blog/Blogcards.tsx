@@ -29,7 +29,7 @@ const BlogCards: React.FC = () => {
         {/* Image Section */}
         <div className="relative flex justify-center items-center lg:mr-28 lg:-ml-20">
           <Image
-            src="/blog6.png"
+            src="/appde.png"
             alt="Team Meeting"
             width={700}
             height={500}
@@ -38,7 +38,7 @@ const BlogCards: React.FC = () => {
 
           <div className="absolute top-1/2 md:mt-40 -mt-44 transform -translate-y-1/2 z-10 right-17 md:w-[180px] w-[190px] h-[160px] lg:top-60 lg:ml-8 right-20 lg:right-16">
             <Image
-              src="/blog7.png"
+              src="/appde2.png"
               alt="Handshake"
               width={260}
               height={200}
