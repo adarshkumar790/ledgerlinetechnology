@@ -93,10 +93,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-bold mb-2 sm:mb-2 mt-4 md:mt-0 ">Services</h3>
             <ul className="space-y-2 mt-4 sm:mt-4">
-              <li><a href="#" className="text-white">Blockchain</a></li>
-              <li><a href="#" className="text-white">Metaverse</a></li>
-              <li><a href="#" className="text-white">Solution</a></li>
-              <li><a href="#" className="text-white">Consulting</a></li>
+              <li><a href="#" className="text-white">Blockchain Solutions</a></li>
+              <li><a href="#" className="text-white">IT Management System</a></li>
+              <li><a href="#" className="text-white">Web Development</a></li>
+              <li><a href="#" className="text-white">App Development</a></li>
             </ul>
           </div>
         </div>
