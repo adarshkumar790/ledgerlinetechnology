@@ -23,7 +23,7 @@ const TeamMembers: React.FC = () => {
             <img
               src="/tm2.png"
               alt="John Doe"
-              className="w-50 h-40 ml-8 mt-4 object-cover"
+              className="w-50 h-40 ml-20 mt-4 object-cover"
             />
             <div className="relative -mt-4 z-10">
               
