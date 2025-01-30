@@ -21,7 +21,7 @@ const TeamMembers: React.FC = () => {
         <div className="absolute -bottom-110 left-[28%] transform -translate-x-1/2">
           <div className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
             <img
-              src="/ris.png"
+              src="/tm2.png"
               alt="John Doe"
               className="w-50 h-40 ml-8 mt-4 object-cover"
             />
@@ -53,9 +53,9 @@ const TeamMembers: React.FC = () => {
         <div className="absolute -bottom-110 right-[28%] transform translate-x-1/2">
           <div className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
             <img
-              src="/tm2.png"
+              src="/ris.png"
               alt="John Doe"
-              className="w-50 h-40 ml-20 object-cover"
+              className="w-50 h-40 ml-8 object-cover"
             />
              <div className="relative -mt-4 z-10">
               
@@ -148,7 +148,7 @@ const TeamMembers: React.FC = () => {
       {/* Card 2 */}
       <div className="snap-center bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
         <img
-          src="/tm2.png"
+          src="/ris.png"
           alt="Alex Smith"
           className="w-full h-40 object-cover"
         />
