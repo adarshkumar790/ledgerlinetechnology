@@ -21,9 +21,9 @@ const TeamMembers: React.FC = () => {
         <div className="absolute -bottom-110 left-[28%] transform -translate-x-1/2">
           <div className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
             <img
-              src="/tm1.png"
+              src="/ris.png"
               alt="John Doe"
-              className="w-50 h-40 ml-20 mt-4 object-cover"
+              className="w-50 h-40 ml-8 mt-4 object-cover"
             />
             <div className="relative -mt-4 z-10">
               

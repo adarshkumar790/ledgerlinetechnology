@@ -58,9 +58,7 @@ export default function Cpm() {
                 alt="Values, Purpose, Mission"
                 className="h-full object-cover w-240 h-240 md:w-180 md:h-150"
               />
-            </div>
-
-            
+            </div>            
           </div>
         </div>
       </div>

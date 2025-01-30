@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
               height={80}
             />
             <span className="text-white font-bold text-xl">
-              LEDGERLINE <br /> TECHNOLOGY
+              LEDGERLINE <br /> TECHNOLOGIES
             </span>
           </div>
           <div className="flex space-x-4 mt-4 ml-8">
