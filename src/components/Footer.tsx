@@ -65,19 +65,19 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <span className="text-white mr-2">{'>'}</span>
-                <a href="#" className="text-white">About us</a>
+                <a href="/about" className="text-white">About us</a>
               </li>
               <li className="flex items-center">
                 <span className="text-white mr-2">{'>'}</span>
-                <a href="#" className="text-white">Services</a>
+                <a href="/service" className="text-white">Services</a>
               </li>
               <li className="flex items-center">
                 <span className="text-white mr-2">{'>'}</span>
-                <a href="#" className="text-white">Projects</a>
+                <a href="/project" className="text-white">Projects</a>
               </li>
               <li className="flex items-center">
                 <span className="text-white mr-2">{'>'}</span>
-                <a href="#" className="text-white hover:text-white">Blog</a>
+                <a href="/blog" className="text-white hover:text-white">Blog</a>
               </li>
               <li className="flex items-center">
                 <span className="text-white mr-2">{'>'}</span>
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <span className="text-white mr-2">{'>'}</span>
-                <a href="#" className="text-white">Contact us</a>
+                <a href="/contact" className="text-white">Contact us</a>
               </li>
             </ul>
           </div>
