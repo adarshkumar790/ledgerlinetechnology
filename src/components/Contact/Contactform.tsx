@@ -52,7 +52,7 @@ const ContactForm: React.FC = () => {
             <div className="space-y-4 ">
               <div className="flex items-center space-x-3">
                 <Image src="/con1.png" alt="Call" width={20} height={20} />
-                <span className='text-xl'>+91 12345 67890</span>
+                <span className='text-xl'>91 2657964445</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Image src="/con2.png" alt="Email" width={20} height={20} />
