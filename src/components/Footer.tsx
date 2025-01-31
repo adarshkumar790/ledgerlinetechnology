@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               width={110}
               height={80}
             />
-            <span className="text-white font-bold text-xl md:-ml-2">
+            <span className="text-white font-bold text-xl md:-ml-4">
               LEDGERLINE <br /> TECHNOLOGIES
             </span>
           </div>
