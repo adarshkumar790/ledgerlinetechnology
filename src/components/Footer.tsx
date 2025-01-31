@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             </span>
           </div>
           <div className="flex space-x-4 mt-4 ml-8">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://www.instagram.com/ledgerlinetech/" className="text-gray-400 hover:text-white">
               <Image
                 src="/in.png"
                 alt="Instagram"
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
                 height={30}
               />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://x.com/Ledgerlinetech" className="text-gray-400 hover:text-white">
               <Image
                 src="/twi.png"
                 alt="Twitter"
