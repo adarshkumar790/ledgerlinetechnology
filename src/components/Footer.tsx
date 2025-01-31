@@ -12,14 +12,14 @@ const Footer: React.FC = () => {
 
       <div className="max-w-[900px] mx-auto px-4 md:flex md:justify-between md:items-start mt-20">
         <div>
-          <div className="flex items-center font-bold">
+          <div className="flex items-center font-bold ">
             <Image
               src="/ledgerlogo.png"
               alt="Ledger Line Logo"
               width={110}
               height={80}
             />
-            <span className="text-white font-bold text-xl">
+            <span className="text-white font-bold text-xl md:-ml-2">
               LEDGERLINE <br /> TECHNOLOGIES
             </span>
           </div>
