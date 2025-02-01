@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
                 height={30}
               />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://www.linkedin.com/company/ledgerline-tech/posts/?feedView=all" className="text-gray-400 hover:text-white">
               <Image
                 src="/ln.png"
                 alt="LinkedIn"
