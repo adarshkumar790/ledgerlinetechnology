@@ -66,8 +66,8 @@ const teamData = [
   {
     id: 6,
     name: 'Mital Gohil',
-    title: 'Software developer',
-    description: 'A Blockchain Developer with a growing expertise in building decentralized applications.',
+    title: 'Accountant',
+    description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis, budgeting, and compliance.',
     image: '/mittal.png',
     social: {
       linkedin: '/ln.png',
@@ -78,8 +78,8 @@ const teamData = [
   {
     id: 7,
     name: 'Mital Gohil',
-    title: 'Software developer',
-    description: 'A Blockchain Developer with a growing expertise in building decentralized applications.',
+    title: 'Accountant',
+    description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis, budgeting, and compliance.',
     image: '/dhar.png',
     social: {
       linkedin: '/ln.png',
@@ -129,7 +129,7 @@ const TeamMembers: React.FC = () => {
           {visibleTeamMembers.map((member) => (
             <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
               <img src={member.image} alt={member.name} 
-                className={`${member.id === 4 ? 'w-48 ml-4' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
+                className={`${member.id === 4 ? 'w-48 ml-6' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
               />
               <div className="relative -mt-4 z-10">
                 <div className="h-16 bg-white transform skew-y-[-12deg]" />
