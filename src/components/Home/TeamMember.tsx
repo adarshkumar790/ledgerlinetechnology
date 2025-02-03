@@ -53,6 +53,18 @@ const teamData = [
   },
   {
     id: 5,
+    name: 'Sneha Chouhan',
+    title: 'UIUX designer',
+    description: 'UI/UX Designer focused on creating intuitive, user-friendly, and visually engaging digital experiences through research, prototyping, and collaboration.',
+    image: '/sn.png',
+    social: {
+      linkedin: '/ln.png',
+      twitter: '/fa.png',
+      facebook: '/tw.png',
+    },
+  },
+  {
+    id: 6,
     name: 'Mital Gohil',
     title: 'Software developer',
     description: 'A Blockchain Developer with a growing expertise in building decentralized applications.',
@@ -64,17 +76,18 @@ const teamData = [
     },
   },
   {
-    id: 6,
-    name: 'Sneha Chouhan',
-    title: 'UIUX designer',
+    id: 7,
+    name: 'Mital Gohil',
+    title: 'Software developer',
     description: 'A Blockchain Developer with a growing expertise in building decentralized applications.',
-    image: '/sneha.png',
+    image: '/dhar.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/fa.png',
       facebook: '/tw.png',
     },
   },
+ 
 ];
 
 const TeamMembers: React.FC = () => {
@@ -94,7 +107,7 @@ const TeamMembers: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-black py-12 px-6 flex flex-col items-center md:mt-24">
+    <div className="min-h-screen bg-black text-black py-12 px-6 flex flex-col items-center">
       <div className="text-center md:text-4xl text-3xl font-bold mb-8 bg-white text-black pt-6 border border-white w-2/3 h-40 relative hidden lg:block">
         Our Best Team Members
         <span className="block w-16 h-1 bg-black mx-auto mt-2" />
@@ -115,8 +128,9 @@ const TeamMembers: React.FC = () => {
         <div className="absolute -bottom-110 left-[15%] flex space-x-8">
           {visibleTeamMembers.map((member) => (
             <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
-             
-              <img src={member.image} alt={member.name} className="w-60 h-40 object-cover " />
+              <img src={member.image} alt={member.name} 
+                className={`${member.id === 4 ? 'w-48 ml-4' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
+              />
               <div className="relative -mt-4 z-10">
                 <div className="h-16 bg-white transform skew-y-[-12deg]" />
               </div>
@@ -155,13 +169,16 @@ const TeamMembers: React.FC = () => {
           <h2>Our Best Team Members</h2>
           <div className="w-16 h-1 bg-black mx-auto mt-4" />
         </div>
-
+        {/* className="w-32 mr-24 h-40" */}
         {/* Team Member Cards */}
         <div className="relative w-full flex flex-col items-center">
-          <div className="relative -mt-12 w-full flex space-x-4 overflow-hidden">
+          <div className="relative -mt-12 w-full flex space-x-1 overflow-hidden">
             {visibleTeamMembers.map((member) => (
-              <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
-                <img src={member.image} alt={member.name} className="w-60 mr-12  h-40 object-cover" />
+              <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-44 shadow-lg rounded-lg">
+                <img src={member.image} alt={member.name} 
+                 className={`${member.id === 4 ? 'w-40 ml-4' : member.id === 2 ? 'w-34 -ml-4' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
+                
+                 />
                 <div className="relative -mt-4 z-10">
                   <div className="h-12 bg-white transform skew-y-[-12deg]" />
                 </div>
