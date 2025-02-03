@@ -77,7 +77,7 @@ const teamData = [
   },
   {
     id: 7,
-    name: 'Mital Gohil',
+    name: 'Dhara Gohil',
     title: 'Accountant',
     description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis, budgeting, and compliance.',
     image: '/dhar.png',
