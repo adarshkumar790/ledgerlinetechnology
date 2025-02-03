@@ -25,7 +25,7 @@ const Banner: React.FC = () => {
             <span className="text-blue-400 md:text-4xl text-3xl"><br/> Growth</span> with <br/> <span className="md:block md:text-3xl font-bold text-xl" >
             LEDGER LINE TECHNOLOGIES </span>
           </h1>
-          <p className="mt-1 text-sm md:text-lg text-gray-300 w-full">
+          <p className="mt-1 text-xs md:text-lg text-gray-300 w-full">
           Ledgerline Technologies is a premier IT solutions provider based in Vadodara, 
           Gujarat. With expertise in blockchain technology and IT services, 
           we specialize in delivering innovative, secure, and scalable solutions.Our services empower businesses to leverage advanced technologies for sustainable growth and 

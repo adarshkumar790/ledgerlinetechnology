@@ -8,7 +8,7 @@ const teamData = [
     name: 'Dipak Patel',
     title: 'CEO',
     description: 'Leading the strategic vision, Dipak drives the company towards innovation and excellence, ensuring long-term growth and success.',
-    image: '/mayank.png',
+    image: '/human.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/fa.png',
@@ -25,6 +25,7 @@ const teamData = [
       linkedin: '/ln.png',
       twitter: '/fa.png',
       facebook: '/tw.png',
+      linkdnlink: 'https://www.linkedin.com/in/adarsh-kumar-se/'
     },
   },
   {
@@ -32,7 +33,7 @@ const teamData = [
     name: 'Mayank Kumar',
     title: 'Sr Blockchain Developer',
     description: 'A Senior Developer, excels in blockchain technology, crafting secure and scalable decentralized solutions.',
-    image: '/mayank.png',
+    image: '/human.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/fa.png',
@@ -49,6 +50,8 @@ const teamData = [
       linkedin: '/ln.png',
       twitter: '/fa.png',
       facebook: '/tw.png',
+      linkdnlink: 'https://www.linkedin.com/in/adarsh-kumar-se/',
+      instalink:'https://x.com/adarshK69180036'
     },
   },
   {
@@ -85,6 +88,7 @@ const teamData = [
       linkedin: '/ln.png',
       twitter: '/fa.png',
       facebook: '/tw.png',
+      
     },
   },
  
@@ -129,7 +133,7 @@ const TeamMembers: React.FC = () => {
           {visibleTeamMembers.map((member) => (
             <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
               <img src={member.image} alt={member.name} 
-                className={`${member.id === 4 ? 'w-48 ml-6' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
+                className={`${member.id === 4 ? 'w-48 ml-6' : member.id === 1 ? 'w-30 ml-20' : member.id === 3 ? 'w-30 ml-20' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
               />
               <div className="relative -mt-4 z-10">
                 <div className="h-16 bg-white transform skew-y-[-12deg]" />
@@ -139,10 +143,10 @@ const TeamMembers: React.FC = () => {
                 <p className="text-sm text-gray-700 mt-0">{member.description}</p>
               </div>
               <div className="flex flex-center space-x-3 text-white bg-[#83868A] mt-4 mb-2 ml-20">
-                <a href="#" className="hover:text-blue-500">
+                <a href={member.social.linkdnlink} className="hover:text-blue-500">
                   <Image src={member.social.linkedin} alt="LinkedIn" width={25} height={20} />
                 </a>
-                <a href="#" className="hover:text-blue-400">
+                <a href={member.social.instalink} className="hover:text-blue-400">
                   <Image src={member.social.twitter} alt="Twitter" width={25} height={20} />
                 </a>
                 <a href="#" className="hover:text-blue-700">
