@@ -30,9 +30,6 @@ const Banner: React.FC = () => {
           Gujarat. With expertise in blockchain technology and IT services, 
           we specialize in delivering innovative, secure, and scalable solutions.Our services empower businesses to leverage advanced technologies for sustainable growth and 
           competitive advantage.
-            {/* <br className="hidden md:block" /> in the market, we are the experts adept at designing practical,
-            next-gen solutions that drive business value, growth,
-            <br className="hidden md:block" /> and result-oriented success. */}
           </p>
         </div>
       </div>
@@ -79,13 +76,12 @@ const Banner: React.FC = () => {
         </div>
       </div>
       
-      {/* About Section */}
+      
       <AboutLedgerline />
       
-      {/* Cpm Section */}
       <Cpm />
       
-      {/* Footer Section */}
+  
       <Footer />
     </>
   );
