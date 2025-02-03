@@ -8,7 +8,7 @@ const teamData = [
     name: 'Dipak Patel',
     title: 'CEO',
     description: 'Leading the strategic vision, Dipak drives the company towards innovation and excellence, ensuring long-term growth and success.',
-    image: '/human.png',
+    image: '/profile1.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/fa.png',
@@ -33,7 +33,7 @@ const teamData = [
     name: 'Mayank Kumar',
     title: 'Sr Blockchain Developer',
     description: 'A Senior Developer, excels in blockchain technology, crafting secure and scalable decentralized solutions.',
-    image: '/human.png',
+    image: '/profile1.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/fa.png',
@@ -133,7 +133,7 @@ const TeamMembers: React.FC = () => {
           {visibleTeamMembers.map((member) => (
             <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
               <img src={member.image} alt={member.name} 
-                className={`${member.id === 4 ? 'w-48 ml-6' : member.id === 1 ? 'w-30 ml-20' : member.id === 3 ? 'w-30 ml-20' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
+                className={`${member.id === 4 ? 'w-48 ml-6' : member.id === 1 ? 'w-56 ml-8' : member.id === 1 ? 'w-30 ml-20' : member.id === 3 ? 'w-40 ml-20' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
               />
               <div className="relative -mt-4 z-10">
                 <div className="h-16 bg-white transform skew-y-[-12deg]" />

@@ -22,7 +22,7 @@ const AboutLedgerline: React.FC = () => {
               </h2>
             </div>
 
-            <p className="text-[#000000] md:mt-12 mt-4 text-sm md:text-m ">
+            <p className="text-[#000000] md:mt-12  text-sm md:text-m ">
               At Ledgerline, we redefine innovation by leveraging blockchain technology to create
               seamless, secure, and transparent solutions for the digital age. Our mission is to
               empower businesses and individuals with decentralized systems.

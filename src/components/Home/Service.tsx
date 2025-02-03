@@ -5,7 +5,7 @@ import { FcSettings } from 'react-icons/fc';
 import { IoSettings } from 'react-icons/io5';
 
 const Services: React.FC = () => {
-  const [selectedService, setSelectedService] = useState<string | null>(null);
+  const [selectedService, setSelectedService] = useState("Exchange");
 
   
   const services = [
