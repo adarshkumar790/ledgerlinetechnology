@@ -46,7 +46,7 @@ const teamData = [
     description: 'A Blockchain Developer with a growing expertise in building decentralized applications.',
     image: '/ada.png',
     social: {
-      linkedin: 'https://www.linkedin.com/in/adarsh-kumar-se/',
+      linkedin: '/ln.png',
       twitter: '/fa.png',
       facebook: '/tw.png',
     },
