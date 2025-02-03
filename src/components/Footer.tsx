@@ -14,12 +14,12 @@ const Footer: React.FC = () => {
         <div>
           <div className="flex items-center font-bold ">
             <Image
-              src="/ledgerlogo.png"
+              src="/logoledger.png"
               alt="Ledger Line Logo"
-              width={110}
-              height={80}
+              width={60}
+              height={60}
             />
-            <span className="text-white font-bold text-xl md:-ml-4">
+            <span className="text-white font-bold text-xl">
               LEDGERLINE <br /> TECHNOLOGIES
             </span>
           </div>
@@ -51,6 +51,14 @@ const Footer: React.FC = () => {
             <a href="https://www.linkedin.com/company/ledgerline-tech" className="text-gray-400 hover:text-white">
               <Image
                 src="/ln.png"
+                alt="LinkedIn"
+                width={30}
+                height={30}
+              />
+            </a>
+            <a href="https://www.linkedin.com/company/ledgerline-tech" className="text-gray-400 hover:text-white">
+              <Image
+                src="/discord.png"
                 alt="LinkedIn"
                 width={30}
                 height={30}
