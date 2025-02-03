@@ -11,35 +11,35 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Mayank Kumar",
+    name: "David Wilson",
     role: "Senior Blockchain Developer",
     image: "/mayank.png",
-    text: "A Senior Developer, excels in blockchain technology, crafting secure and scalable decentralized solutions.",
+    text: "Impressive use of blockchain technology! Your commitment to decentralization and security truly sets you apart. Looking forward to seeing more innovative solutions from your team!",
   },
   {
-    name: "Adarsh Kumar",
+    name: "Michael Brown",
     role: "Blockchain Developer",
-    image: "/adarsh.png",
-    text: "A Blockchain Developer with a growing expertise in building decentralized applications and smart contracts.",
+    image: "/mayank.png",
+    text: "The level of innovation and scalability in your blockchain ecosystem is commendable. Hope to see more partnerships and real-world applications soon!",
   },
   {
-    name: "Sneha Chouhan",
+    name: "David",
     role: "UX Designer",
-    image: "/sneha.png",
-    text: "A UX designer focuses on creating intuitive and engaging user experiences by researching, designing, and testing digital interfaces.",
+    image: "/mayank.png",
+    text: "Your blockchain-based solutions have the potential to revolutionize industries. Excited to see how your technology will shape the future of finance, supply chains, and beyond!",
   },
   {
-    name: "Mital Gohil",
+    name: "Dipak",
     role: "Developer",
-    image: "/mital.png",
-    text: "A software developer designs, codes, tests, and maintains software applications to meet user needs and ensure functionality across various platforms.",
+    image: "/mayank.png",
+    text: "Your expertise in blockchain technology is truly commendable. The seamless integration and efficiency of your platform have greatly enhanced our processes. Keep up the amazing work!",
   },
-  {
-    name: "Dhara Gohil",
-    role: "Accountant",
-    image: "/dhara.png",
-    text: "An accountant manages financial records, prepares reports, ensures compliance with regulations, and provides insights to support business decision-making.",
-  },
+  // {
+  //   name: "Dhara Gohil",
+  //   role: "Accountant",
+  //   image: "/dhara.png",
+  //   text: "An accountant manages financial records, prepares reports, ensures compliance with regulations, and provides insights to support business decision-making.",
+  // },
   
 ];
 
@@ -63,7 +63,7 @@ const TestimonialSlider: React.FC = () => {
   return (
     <div className="bg-black text-white py-12 px-6">
       <h2 className="text-center md:text-4xl text-3xl text-white font-bold">
-        Team Testimonials
+        Testimonials
       </h2>
       <div className="w-20 h-1 bg-gray-500 mx-auto"></div>
       <div className="flex flex-col lg:flex-row lg:justify-center lg:items-center space-y-6 lg:space-y-0 lg:space-x-6 max-w-5xl mx-auto relative mt-20">
@@ -95,11 +95,11 @@ const TestimonialSlider: React.FC = () => {
   />
 {/* </div> */}
 
-              <h3 className="text-md text-white font-bold text-center md:-mt-4 lg:text-left">
+              <h3 className="text-md text-white font-bold text-center md:-mt-4 lg:text-center">
                 {currentTestimonial.name}
               </h3>
               <p className="text-sm text-white text-center lg:text-left mt-1">
-                {currentTestimonial.role || "Role Not Provided"}
+                {/* {currentTestimonial.role || "Role Not Provided"} */}
               </p>
             </div>
           </div>

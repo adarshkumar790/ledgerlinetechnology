@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               LEDGERLINE <br /> TECHNOLOGIES
             </span>
           </div>
-          <div className="flex space-x-4 mt-4 ml-8">
+          <div className="flex space-x-4 mt-4 ml-2">
             <a href="https://www.instagram.com/ledgerlinetech/" className="text-gray-400 hover:text-white">
               <Image
                 src="/in.png"
@@ -56,11 +56,11 @@ const Footer: React.FC = () => {
                 height={30}
               />
             </a>
-            <a href="https://www.linkedin.com/company/ledgerline-tech" className="text-gray-400 hover:text-white">
+            <a href="https://discord.com/channels/1335184709894017155/1335184709894017158" className="text-gray-400 hover:text-white">
               <Image
-                src="/discord.png"
+                src="/discords.png"
                 alt="LinkedIn"
-                width={30}
+                width={35}
                 height={30}
               />
             </a>
