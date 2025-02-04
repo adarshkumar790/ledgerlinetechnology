@@ -122,7 +122,7 @@ const TeamMembers: React.FC = () => {
           Meet our expert team members who excel at delivering impactful designs and efficient websites.
         </p>
 
-        {/* Left Arrow Button */}
+        
         <button
           onClick={handlePrevious}
           className="absolute top-80 left-4 transform -translate-y-1/2 text-white text-3xl z-10 bg-black p-2 rounded-full hover:bg-gray-600"
@@ -160,7 +160,6 @@ const TeamMembers: React.FC = () => {
           ))}
         </div>
 
-        {/* Right Arrow Button */}
         <button
           onClick={handleNext}
           className="absolute top-80 right-4 transform -translate-y-1/2 text-white text-3xl z-10 bg-black p-2 rounded-full hover:bg-gray-600"
@@ -176,14 +175,13 @@ const TeamMembers: React.FC = () => {
           <h2>Our Team Members</h2>
           <div className="w-16 h-1 bg-black mx-auto" />
         </div>
-        {/* className="w-32 mr-24 h-40" */}
-        {/* Team Member Cards */}
+        
         <div className="relative w-full flex flex-col items-center">
           <div className="relative -mt-12 w-full flex space-x-1 overflow-hidden">
             {visibleTeamMembers.map((member) => (
               <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
                 <img src={member.image} alt={member.name} 
-                 className={`${member.id === 4 ? 'w-40 ml-4' : member.id === 2 ? 'w-34 -ml-6' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
+                 className={`${member.id === 4 ? 'w-40 ml-4 mt-1'  : member.id === 2 ? 'w-34 -ml-6' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
                 
                  />
                 <div className="relative -mt-4 z-10">
