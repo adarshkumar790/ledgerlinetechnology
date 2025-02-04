@@ -22,7 +22,7 @@ const Banner: React.FC = () => {
         <div className="relative z-10 flex flex-col items-start justify-start  px-6 md:pt-12 pt-4 md:ml-20 ">
           <h1 className="text-2xl md:text-3xl w-full font-bold">
             Fostering Business{" "}
-            <span className="text-blue-400 md:text-4xl text-3xl"><br/> Growth</span> with <br/> <span className="md:block md:text-3xl font-bold text-xl" >
+            <span className="text-blue-400  md:text-4xl text-3xl"><br/> Growth</span> with <br/> <span className="md:block md:text-3xl font-bold text-xl" >
             LEDGER LINE TECHNOLOGIES </span>
           </h1>
           <p className="mt-1 text-xs md:text-lg text-gray-300 w-full">
