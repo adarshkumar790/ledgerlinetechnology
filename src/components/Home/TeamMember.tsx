@@ -170,17 +170,17 @@ const TeamMembers: React.FC = () => {
       {/* Mobile View */}
       <div className="min-h-screen bg-black py-12 px-2 flex flex-col items-center lg:hidden">
         <div className="relative text-center text-2xl font-bold text-black mb-8 bg-white w-full max-w-md sm:max-w-none mx-auto p-6 border border-white">
-          <h2>Our Best Team Members</h2>
-          <div className="w-16 h-1 bg-black mx-auto mt-4" />
+          <h2>Our Team Members</h2>
+          <div className="w-16 h-1 bg-black mx-auto" />
         </div>
         {/* className="w-32 mr-24 h-40" */}
         {/* Team Member Cards */}
         <div className="relative w-full flex flex-col items-center">
           <div className="relative -mt-12 w-full flex space-x-1 overflow-hidden">
             {visibleTeamMembers.map((member) => (
-              <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-44 shadow-lg rounded-lg">
+              <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
                 <img src={member.image} alt={member.name} 
-                 className={`${member.id === 4 ? 'w-40 ml-4' : member.id === 2 ? 'w-34 -ml-4' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
+                 className={`${member.id === 4 ? 'w-40 ml-4' : member.id === 2 ? 'w-34 -ml-6' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
                 
                  />
                 <div className="relative -mt-4 z-10">

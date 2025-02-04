@@ -40,7 +40,7 @@ const Home = () => {
         <main className="flex items-center justify-center h-full">
           <div className="relative w-full h-full overflow-hidden flex items-center justify-center">
             
-            <div className="absolute text-gray-400 text-5xl md:text-6xl lg:text-7xl font-bold animate-slideInFromBehind px-4">
+            <div className="absolute text-gray-400 text-4xl md:text-6xl lg:text-7xl font-bold animate-slideInFromBehind px-4">
               LEDGERLINE TECHNOLOGIES
             </div>
           </div>
