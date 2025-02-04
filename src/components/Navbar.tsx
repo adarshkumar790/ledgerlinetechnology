@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
     width={80}
     height={50}
   />
-  <span className="text-gray-100 ml-2">
+  <span className="text-gray-100">
     <span className="font-black text-xl md:text-2xl">LEDGERLINE</span>
     <br />
     <span className="font-black md:text-lg">TECHNOLOGIES</span>
