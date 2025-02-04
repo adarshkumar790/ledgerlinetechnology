@@ -32,12 +32,12 @@ const BlogCard: React.FC = () => {
           Blockchain Solutions
           </h2>
           <p className="text-gray-700 mb-1 text-sm sm:text-bas"> 1. Custom Blockchain Solutions: Develop personalized blockchain networks for businesses. <br/> 2. Smart Contract Creation: Enable secure and automated workflow processes. <br/> 3. Decentralized Finance (DeFi) Solutions: Create platforms for decentralized financial ecosystems. <br/> 4. Tokenomics & Token Administration: Develop and manage blockchain-based tokens. <br/> 5. Blockchain Security Solutions: Implement advanced security measures to boost operational effectiveness. </p>
-          <button className="flex items-center bg-[#0411FF] text-white px-2 py-1 mt-auto self-end md:self-start hover:bg-blue-700">
+          {/* <button className="flex items-center bg-[#0411FF] text-white px-2 py-1 mt-auto self-end md:self-start hover:bg-blue-700">
             Read More
             <span className="ml-2">
               <Image src="/blogarrow.png" alt="arrow" width={20} height={20} />
             </span>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -18,12 +18,12 @@ const BlogCards: React.FC = () => {
           2.Cross-platform solutions offering exceptional functionality. <br/>
           3.Scalable apps built to enhance user engagement and improve business efficiency.
           </p>
-          <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 self-start lg:self-end hover:bg-blue-700">
+          {/* <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 self-start lg:self-end hover:bg-blue-700">
             Read More
             <span className="ml-2">
               <Image src="/blogarrow.png" alt="arrow" width={20} height={20} />
             </span>
-          </button>
+          </button> */}
         </div>
 
         {/* Image Section */}

@@ -12,12 +12,12 @@ const BlogCards2: React.FC = () => {
           <p className="text-gray-700 mb-6 text-sm sm:text-base"> 1. End-to-end IT infrastructure management. <br/> 
           2. Ongoing maintenance and support for smooth operations. <br/> 
           3. Cloud-driven IT solutions tailored to meet modern business requirements. </p>
-          <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 self-start lg:self-end hover:bg-blue-700">
+          {/* <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 self-start lg:self-end hover:bg-blue-700">
             Read More
             <span className="ml-2">
               <Image src="/blogarrow.png" alt="arrow" width={20} height={20} />
             </span>
-          </button>
+          </button> */}
         </div>
         <div className="relative flex justify-center items-center lg:mr-28 lg:-ml-20">
           <Image
