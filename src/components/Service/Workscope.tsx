@@ -38,7 +38,7 @@ const ScopeWork: FC = () => {
           </div>
 
           {/* The Platform Box */}
-          <div className="bg-[#393D42] hover:border-b-blue-800 border border-white border-b-8 p-8 w-64 h-80 md:-mt-16  shadow-lg flex flex-col items-center overflow-hidden relative">
+          <div className="bg-[#393D42] hover:border-b-blue-800 border border-white border-b-8 p-8 w-64 h-80 md:-mt-20  shadow-lg flex flex-col items-center overflow-hidden relative">
             <div className="text-white text-4xl mb-4 p-5 rounded-full bg-white">
               <Image src="/job3.png" alt="Briefcase" width={40} height={40} />
             </div>
