@@ -35,7 +35,7 @@ const Banner: React.FC = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="relative flex justify-center w-full px-2 md:-mt-16 -mt-20">
+      <div className="relative flex justify-center w-full px-2 md:-mt-16 -mt-16">
         {/* Combined Box */}
         <div className="bg-white text-black text-center px-4 py-4 shadow-md w-full max-w-4xl flex flex-row md:flex-row justify-around border-4 border-gray-500">
           {/* Stat 1 */}
