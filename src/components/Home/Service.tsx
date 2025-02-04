@@ -3,9 +3,21 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { FcSettings } from 'react-icons/fc';
 import { IoSettings } from 'react-icons/io5';
+import { IoClose } from 'react-icons/io5';
+
+interface Card {
+  icon: string;
+  number: string;
+  category: string;
+  title: string;
+  description: string;
+  details: string;
+}
 
 const Services: React.FC = () => {
   const [selectedService, setSelectedService] = useState("Exchange");
+  // const [selectedService, setSelectedService] = useState("Exchange");
+  const [selectedCard, setSelectedCard] = useState<Card | null>(null);
 
   
   const services = [
@@ -24,21 +36,16 @@ const Services: React.FC = () => {
       number: '0.1', 
       category: 'EXCHANGE', 
       title: 'Centralized Exchanges', 
-      description: "We have built a secure and user-friendly centralized cryptocurrency exchange with fast transactions and high liquidity.", 
+      description: "We have built a secure and user-friendly centralized cryptocurrency exchange with fast transactions and high liquidity.",
+      details: "Centralized exchanges (CEX) serve as digital trading platforms that enable cryptocurrency transactions through a centralized authority. These platforms provide users with high liquidity, ensuring that buy and sell orders are executed efficiently and without significant delays. Additionally, they offer rapid transaction speeds and advanced trading features, such as margin trading, futures contracts, and automated trading bots, making them an attractive option for both beginners and experienced traders. However, centralized exchanges require users to entrust their assets and personal data to a third-party organization, which introduces potential security risks, including hacking attempts, data breaches, and regulatory interventions. In the event of a cyber attack or sudden regulatory shutdown, users may face the loss of funds or restrictions on withdrawals. Recognizing these concerns, our solutions prioritize robust security measures, strict regulatory compliance, and an intuitive user experience, ensuring that traders and investors can operate within a safe, transparent, and highly efficient environment while benefiting from the convenience and functionality of a centralized exchange."
     },
-    // { 
-    //   icon: '/CE1.png', 
-    //   number: '0.2', 
-    //   category: 'EXCHANGE', 
-    //   title: 'Crypto Ed', 
-    //   description: 'A platform for exchanging cryptocurrencies with low fees and high liquidity.', 
-    // },
     { 
       icon: '/decentralised.png', 
       number: '0.2', 
       category: 'EXCHANGE', 
       title: 'Decentralized Exchanges', 
       description: 'We have built a secure and transparent decentralized cryptocurrency exchange.', 
+      details: "Decentralized exchanges (DEX) operate without intermediaries, enhancing security and transparency. Unlike CEXs, DEXs enable peer-to-peer trading directly through smart contracts, allowing users to maintain complete control over their funds. They provide enhanced privacy and reduced risks of hacking but may face liquidity and speed challenges. Our DEX solutions are designed for optimized performance, cross-chain compatibility, and innovative trading tools."
     },
     { 
       icon: '/CE3.png', 
@@ -46,6 +53,7 @@ const Services: React.FC = () => {
       category: 'EXCHANGE', 
       title: 'Hybrid Exchange', 
       description: 'We have built a hybrid exchange, offering security and liquidity with fast, decentralized trading.', 
+      details: "Hybrid exchanges combine the best of centralized and decentralized exchanges, offering high liquidity, fast order execution, and enhanced security. They allow users to maintain control over their private keys while benefiting from the speed and efficiency of centralized order matching. Our hybrid exchange solutions provide robust security protocols, seamless user experience, and regulatory compliance to ensure efficient and secure digital asset trading."
     },
     { 
       icon: '/wallets.png', 
@@ -53,6 +61,7 @@ const Services: React.FC = () => {
       category: 'WALLET', 
       title: 'WALLET SOLUTIONS', 
       description: 'We provide secure, customizable blockchain wallets for safe storage and seamless digital asset transactions.',
+      details: "Our wallet solutions offer top-tier security, multi-currency support, and user-friendly interfaces for seamless crypto transactions. We provide both custodial and non-custodial wallets, giving users the choice between convenience and full control over their private keys. Additional features include two-factor authentication (2FA), biometric security, and integration with DeFi and NFT platforms."
     },
     { 
       icon: '/nft1.png', 
@@ -60,6 +69,7 @@ const Services: React.FC = () => {
       category: 'NFT', 
       title: 'NFT Marketplace Development', 
       description: 'We create secure, scalable NFT marketplaces for buying, selling, and auctioning digital assets.',
+      details: "Our NFT marketplace solutions enable seamless trading of digital assets, ensuring a smooth user experience. Features include royalty automation, auction mechanisms, multi-chain compatibility, and enhanced security measures to protect creators and collectors. We integrate smart contract functionality to ensure authenticity and transparency."
     },
     { 
       icon: '/nft2.png', 
@@ -67,20 +77,7 @@ const Services: React.FC = () => {
       category: 'NFT', 
       title: 'NFT Minting Solutions', 
       description: 'We offer customizable services to tokenize digital art, music, and other assets as NFTs.',
-    },
-    { 
-      icon: '/nft3.png', 
-      number: '0.7', 
-      category: 'NFT', 
-      title: 'NFT Integrations Solutions', 
-      description: 'We integrate NFTs into platforms, enhancing user experiences with unique digital assets.',
-    },
-    { 
-      icon: '/nft4.png', 
-      number: '0.8', 
-      category: 'NFT', 
-      title: 'NFT Gaming SOLUTIONS', 
-      description: 'We develop blockchain-based games where players can own and trade in-game assets as NFTs.',
+      details: "Our NFT minting services allow creators to easily tokenize their digital assets on the blockchain. We provide customizable smart contract templates, batch minting capabilities, metadata management, and support for multiple blockchains. The process ensures transparency, security, and ownership verification."
     },
     { 
       icon: '/defi.png', 
@@ -88,42 +85,23 @@ const Services: React.FC = () => {
       category: 'DEFI', 
       title: 'DeFi Platform Development', 
       description: 'We build decentralized platforms for lending, borrowing, and yield farming.',
-    },
-    { 
-      icon: '/defi2.png', 
-      number: '0.10', 
-      category: 'DEFI', 
-      title: 'DeFi Token Solutions', 
-      description: 'We create and manage tokens for seamless DeFi transactions.',
-    },
-    { 
-      icon: '/defi3.png', 
-      number: '0.11', 
-      category: 'DEFI', 
-      title: 'DeFi Smart Contaract', 
-      description: 'We develop secure smart contracts for automated financial processes.',
-    },
-    { 
-      icon: '/defi4.png', 
-      number: '0.12', 
-      category: 'DEFI', 
-      title: 'DeFi Wallet Integrations:', 
-      description: 'We integrate wallets for secure DeFi asset management.',
+      details: "Our DeFi solutions include lending and borrowing protocols, automated yield farming strategies, liquidity mining, and staking mechanisms. We focus on security audits, scalability, and cross-chain interoperability to create reliable financial ecosystems that empower users with decentralized financial services."
     },
     { 
       icon: '/web31.png', 
       number: '0.13', 
       category: 'WEB3', 
-      title: 'WEB3 Developemnt:', 
+      title: 'WEB3 Development', 
       description: 'We create decentralized applications (dApps) on blockchain for enhanced user control.',
+      details: "Our Web3 solutions focus on decentralized applications (dApps), self-sovereign identity, and smart contract development. We leverage Ethereum, Solana, and other blockchain networks to create secure, scalable, and user-centric Web3 ecosystems with seamless integration across multiple platforms."
     },
-    
     { 
       icon: '/coin1.png', 
       number: '0.14', 
       category: 'COIN DEVELOPMENT', 
       title: 'Coin Creations', 
       description: 'We design and develop custom blockchain coins tailored to your specific business needs.',
+      details: "Our coin creation services include custom blockchain development, tokenomics design, governance mechanisms, and smart contract integration. We ensure security, scalability, and compliance to provide a sustainable digital currency ecosystem tailored to your business model."
     },
     { 
       icon: '/coin2.png', 
@@ -131,9 +109,10 @@ const Services: React.FC = () => {
       category: 'COIN DEVELOPMENT', 
       title: 'Tokenomics & Coin Structuring', 
       description: 'We offer expertise in designing tokenomics and coin structures for a sustainable and scalable ecosystem.',
-    },
-    
+      details: "Our tokenomics and coin structuring services focus on designing optimal supply models, staking mechanisms, governance frameworks, and reward structures. We provide strategic consulting on economic incentives to ensure long-term sustainability and adoption of your digital asset."
+    }
   ];
+
 
   const filteredCards = selectedService
     ? cards.filter((card) => card.category === selectedService)
@@ -250,7 +229,7 @@ const Services: React.FC = () => {
         <p className="md-text-xs text-[#000000]  text-left w-full font-light">
           {card.description}
         </p>
-        <button className="mt-1 px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
+        <button onClick={() => setSelectedCard(card)} className="mt-1 px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
           Learn More
           <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
         </button>
@@ -258,6 +237,16 @@ const Services: React.FC = () => {
     </div>
   ))}
 </div>
+
+{selectedCard && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+          <div className="bg-gray-600 p-6 rounded-lg w-96 h-auto relative">
+            <button onClick={() => setSelectedCard(null)} className="absolute top-2 right-2 text-xl"><IoClose /></button>
+            <h2 className="text-m  text-white font-bold">{selectedCard.title}</h2>
+            <p className='text-sm'>{selectedCard.details}</p>
+          </div>
+        </div>
+      )}
 
 
 </section>
