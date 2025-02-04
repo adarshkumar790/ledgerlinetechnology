@@ -25,7 +25,7 @@ const teamData = [
       linkedin: '/ln.png',
       twitter: '/tw.png',
       facebook: '/fa.png',
-      linkdnlink: 'https://www.linkedin.com/in/adarsh-kumar-se/'
+      linkdnlink: ''
     },
   },
   {
