@@ -51,7 +51,8 @@ const teamData = [
       twitter: '/fa.png',
       facebook: '/tw.png',
       linkdnlink: 'https://www.linkedin.com/in/adarsh-kumar-se/',
-      instalink:'https://x.com/adarshK69180036'
+      twitterlink:'https://x.com/adarshK69180036',
+      facebooklink:''
     },
   },
   {
@@ -62,8 +63,10 @@ const teamData = [
     image: '/sn.png',
     social: {
       linkedin: '/ln.png',
+      linkdinlink:'https://www.linkedin.com/in/sc2401/',
       twitter: '/fa.png',
       facebook: '/tw.png',
+      facebooklink:'https://www.facebook.com/profile.php?id=100074773910081'
     },
   },
   {
@@ -146,10 +149,10 @@ const TeamMembers: React.FC = () => {
                 <a href={member.social.linkdnlink} className="hover:text-blue-500">
                   <Image src={member.social.linkedin} alt="LinkedIn" width={25} height={20} />
                 </a>
-                <a href={member.social.instalink} className="hover:text-blue-400">
+                <a href={member.social.twitterlink} className="hover:text-blue-400">
                   <Image src={member.social.twitter} alt="Twitter" width={25} height={20} />
                 </a>
-                <a href="#" className="hover:text-blue-700">
+                <a href={member.social.facebooklink} className="hover:text-blue-700">
                   <Image src={member.social.facebook} alt="Facebook" width={25} height={20} />
                 </a>
               </div>
@@ -191,13 +194,13 @@ const TeamMembers: React.FC = () => {
                   <p className="text-xs text-gray-700 mt-1 mb-12">{member.description}</p>
                 </div>
                 <div className="flex justify-center space-x-3 bg-[#83868A] py-2">
-                  <a href="#" className="hover:text-blue-500">
+                  <a href={member.social.linkdnlink} className="hover:text-blue-500">
                     <Image src={member.social.linkedin} alt="LinkedIn" width={20} height={20} />
                   </a>
-                  <a href="#" className="hover:text-blue-400">
+                  <a href={member.social.twitterlink} className="hover:text-blue-400">
                     <Image src={member.social.twitter} alt="Twitter" width={20} height={20} />
                   </a>
-                  <a href="#" className="hover:text-blue-700">
+                  <a href={member.social.facebooklink} className="hover:text-blue-700">
                     <Image src={member.social.facebook} alt="Facebook" width={20} height={20} />
                   </a>
                 </div>
