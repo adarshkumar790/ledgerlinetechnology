@@ -239,14 +239,16 @@ const Services: React.FC = () => {
 </div>
 
 {selectedCard && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-gray-600 p-6 rounded-lg w-80 md:w-96 h-auto relative">
-            <button onClick={() => setSelectedCard(null)} className="absolute top-2 right-2 text-xl"><IoClose /></button>
-            <h2 className=" text-white font-bold">{selectedCard.title}</h2>
-            <p className='text-m text-black '>{selectedCard.details}</p>
-          </div>
-        </div>
-      )}
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="bg-gray-600 p-6 rounded-lg w-[28rem] md:w-[36rem] h-auto relative">
+      <button onClick={() => setSelectedCard(null)} className="absolute top-2 right-2 text-xl">
+        <IoClose />
+      </button>
+      <h2 className="text-white font-bold">{selectedCard.title}</h2>
+      <p className="text-m text-black">{selectedCard.details}</p>
+    </div>
+  </div>
+)}
 
 
 </section>
