@@ -149,10 +149,10 @@ const TeamMembers: React.FC = () => {
                 <a href={member.social.linkdnlink} className="hover:text-blue-500">
                   <Image src={member.social.linkedin} alt="LinkedIn" width={25} height={20} />
                 </a>
-                <a href={member.social.twitterlink} className="hover:text-blue-400">
+                <a href={member.social.facebooklink} className="hover:text-blue-400">
                   <Image src={member.social.twitter} alt="Twitter" width={25} height={20} />
                 </a>
-                <a href={member.social.facebooklink} className="hover:text-blue-700">
+                <a href={member.social.twitterlink} className="hover:text-blue-700">
                   <Image src={member.social.facebook} alt="Facebook" width={25} height={20} />
                 </a>
               </div>
@@ -197,10 +197,10 @@ const TeamMembers: React.FC = () => {
                   <a href={member.social.linkdnlink} className="hover:text-blue-500">
                     <Image src={member.social.linkedin} alt="LinkedIn" width={20} height={20} />
                   </a>
-                  <a href={member.social.twitterlink} className="hover:text-blue-400">
+                  <a href={member.social.facebooklink} className="hover:text-blue-400">
                     <Image src={member.social.twitter} alt="Twitter" width={20} height={20} />
                   </a>
-                  <a href={member.social.facebooklink} className="hover:text-blue-700">
+                  <a href={member.social.twitterlink} className="hover:text-blue-700">
                     <Image src={member.social.facebook} alt="Facebook" width={20} height={20} />
                   </a>
                 </div>
