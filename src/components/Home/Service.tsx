@@ -37,7 +37,7 @@ const Services: React.FC = () => {
       category: 'EXCHANGE', 
       title: 'Centralized Exchanges', 
       description: "We have built a secure and user-friendly centralized cryptocurrency exchange with fast transactions and high liquidity.",
-      details: "Centralized exchanges (CEX) serve as digital trading platforms that enable cryptocurrency transactions through a centralized authority. These platforms provide users with high liquidity, ensuring that buy and sell orders are executed efficiently and without significant delays. Additionally, they offer rapid transaction speeds and advanced trading features, such as margin trading, futures contracts, and automated trading bots, making them an attractive option for both beginners and experienced traders. However, centralized exchanges require users to entrust their assets and personal data to a third-party organization, which introduces potential security risks, including hacking attempts, data breaches, and regulatory interventions. In the event of a cyber attack or sudden regulatory shutdown, users may face the loss of funds or restrictions on withdrawals. Recognizing these concerns, our solutions prioritize robust security measures, strict regulatory compliance, and an intuitive user experience, ensuring that traders and investors can operate within a safe, transparent, and highly efficient environment while benefiting from the convenience and functionality of a centralized exchange."
+      details: "Centralized exchanges (CEX) serve as digital trading platforms that enable cryptocurrency transactions through a centralized authority. These platforms provide users with high liquidity, ensuring that buy and sell orders are executed efficiently and without significant delays. Additionally, they offer rapid transaction speeds and advanced trading features, such as margin trading, futures contracts, and automated trading bots, making them an attractive option for both beginners and experienced traders. However, centralized exchanges require users to entrust their assets and personal data to a third-party organization, which introduces potential security risks, including hacking attempts, data breaches, and regulatory interventions."
     },
     { 
       icon: '/decentralised.png', 
@@ -242,8 +242,8 @@ const Services: React.FC = () => {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-gray-600 p-6 rounded-lg w-96 h-auto relative">
             <button onClick={() => setSelectedCard(null)} className="absolute top-2 right-2 text-xl"><IoClose /></button>
-            <h2 className="text-m  text-white font-bold">{selectedCard.title}</h2>
-            <p className='text-sm'>{selectedCard.details}</p>
+            <h2 className=" text-white font-bold">{selectedCard.title}</h2>
+            <p className='text-m text-black '>{selectedCard.details}</p>
           </div>
         </div>
       )}

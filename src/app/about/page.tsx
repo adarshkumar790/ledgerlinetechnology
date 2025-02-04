@@ -35,7 +35,7 @@ const Banner: React.FC = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="relative flex justify-center w-full px-2 md:-mt-12 -mt-16">
+      <div className="relative flex justify-center w-full px-2 md:-mt-16 -mt-20">
         {/* Combined Box */}
         <div className="bg-white text-black text-center px-4 py-4 shadow-md w-full max-w-4xl flex flex-row md:flex-row justify-around border-4 border-gray-500">
           {/* Stat 1 */}
@@ -43,7 +43,7 @@ const Banner: React.FC = () => {
             <div className="flex items-center space-x-0 md:space-x-8">
           
               <img src="/plp.png" alt="Client Retention" className="w-8 h-8 md:w-10 md:h-10 hidden md:block" />
-              <p className="text-2xl md:text-5xl font-bold">100%</p>
+              <p className="text-2xl md:text-5xl font-bold">90%</p>
             </div>
             <p className="mt-1 text-sm md:text-base">PROJECT LAUNCHPAD</p>
           </div>

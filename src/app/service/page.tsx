@@ -4,6 +4,7 @@ import ScopeWork from '@/components/Service/Workscope';
 import Serproject from '@/components/Service/Service';
 import Image from 'next/image';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export default function Services() {
   return (
@@ -30,7 +31,7 @@ export default function Services() {
             </p>
             <div className="flex justify-center md:justify-start">
               <button className="bg-[#83868A] text-[#FFFFFF] font-bold py-1 px-2 hover:bg-black flex items-center gap-2">
-                <span>Explore More</span>
+                <Link href="/blog"> <span >Explore More</span> </Link>
                 <span>
                   <Image src="/rightservice.png" alt="Arrow" width={20} height={20} />
                 </span>
