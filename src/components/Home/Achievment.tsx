@@ -21,7 +21,7 @@ const Achievement = () => {
               className="inline-block align-middle"
             />
             <div className="text-5xl font-bold text-white leading-none align-middle">
-              100%
+              95%
             </div>
           </div>
           <p className="uppercase font-[36px] text-white">Project Launchpad</p>
