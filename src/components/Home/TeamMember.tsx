@@ -11,8 +11,8 @@ const teamData = [
     image: '/profile1.png',
     social: {
       linkedin: '/ln.png',
-      twitter: '/fa.png',
-      facebook: '/tw.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
     },
   },
   {
@@ -23,8 +23,8 @@ const teamData = [
     image: '/rish.png',
     social: {
       linkedin: '/ln.png',
-      twitter: '/fa.png',
-      facebook: '/tw.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
       linkdnlink: 'https://www.linkedin.com/in/adarsh-kumar-se/'
     },
   },
@@ -36,8 +36,8 @@ const teamData = [
     image: '/profile1.png',
     social: {
       linkedin: '/ln.png',
-      twitter: '/fa.png',
-      facebook: '/tw.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
     },
   },
   {
@@ -48,8 +48,8 @@ const teamData = [
     image: '/ada.png',
     social: {
       linkedin: '/ln.png',
-      twitter: '/fa.png',
-      facebook: '/tw.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
       linkdnlink: 'https://www.linkedin.com/in/adarsh-kumar-se/',
       twitterlink:'https://x.com/adarshK69180036',
       facebooklink:''
@@ -64,8 +64,8 @@ const teamData = [
     social: {
       linkedin: '/ln.png',
       linkdinlink:'https://www.linkedin.com/in/sc2401/',
-      twitter: '/fa.png',
-      facebook: '/tw.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
       facebooklink:'https://www.facebook.com/profile.php?id=100074773910081'
     },
   },
@@ -77,8 +77,8 @@ const teamData = [
     image: '/mittal.png',
     social: {
       linkedin: '/ln.png',
-      twitter: '/fa.png',
-      facebook: '/tw.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
     },
   },
   {
@@ -89,8 +89,8 @@ const teamData = [
     image: '/dhar.png',
     social: {
       linkedin: '/ln.png',
-      twitter: '/fa.png',
-      facebook: '/tw.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
       
     },
   },
@@ -149,10 +149,10 @@ const TeamMembers: React.FC = () => {
                 <a href={member.social.linkdnlink} className="hover:text-blue-500">
                   <Image src={member.social.linkedin} alt="LinkedIn" width={25} height={20} />
                 </a>
-                <a href={member.social.facebooklink} className="hover:text-blue-400">
+                <a href={member.social.twitterlink} className="hover:text-blue-400">
                   <Image src={member.social.twitter} alt="Twitter" width={25} height={20} />
                 </a>
-                <a href={member.social.twitterlink} className="hover:text-blue-700">
+                <a href={member.social.facebooklink} className="hover:text-blue-700">
                   <Image src={member.social.facebook} alt="Facebook" width={25} height={20} />
                 </a>
               </div>
@@ -197,10 +197,10 @@ const TeamMembers: React.FC = () => {
                   <a href={member.social.linkdnlink} className="hover:text-blue-500">
                     <Image src={member.social.linkedin} alt="LinkedIn" width={20} height={20} />
                   </a>
-                  <a href={member.social.facebooklink} className="hover:text-blue-400">
+                  <a href={member.social.twitterlink} className="hover:text-blue-400">
                     <Image src={member.social.twitter} alt="Twitter" width={20} height={20} />
                   </a>
-                  <a href={member.social.twitterlink} className="hover:text-blue-700">
+                  <a href={member.social.facebooklink} className="hover:text-blue-700">
                     <Image src={member.social.facebook} alt="Facebook" width={20} height={20} />
                   </a>
                 </div>
