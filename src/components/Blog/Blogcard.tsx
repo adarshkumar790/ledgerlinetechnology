@@ -15,7 +15,7 @@ const BlogCard: React.FC = () => {
             className="object-cover w-full h-auto"
           />
 
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:translate-y-0 lg:top-auto lg:bottom-[-20%] lg:left-1/2 lg:transform lg:-translate-x-1/2 w-48 h-20 mt-24 md:mb-16 sm:w-40 sm:h-32 md:w-36 md:h-28 lg:w-140 lg:h-120 z-10">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:translate-y-0 lg:top-auto lg:bottom-[-20%] lg:left-1/2 lg:transform lg:-translate-x-1/2 w-48 h-20 mt-28 md:mb-16 sm:w-40 sm:h-32 md:w-36 md:h-28 lg:w-140 lg:h-120 z-10">
             <Image
               src="/blog7.png"
               alt="Handshake"
