@@ -70,7 +70,7 @@ const teamData = [
     id: 6,
     name: 'Mital Gohil',
     title: 'Accountant',
-    description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis, budgeting, and compliance.',
+    description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis.',
     image: '/mittal.png',
     social: {
       linkedin: '/ln.png',
@@ -82,7 +82,7 @@ const teamData = [
     id: 7,
     name: 'Dhara Gohil',
     title: 'Accountant',
-    description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis, budgeting, and compliance.',
+    description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis.',
     image: '/dhar.png',
     social: {
       linkedin: '/ln.png',
