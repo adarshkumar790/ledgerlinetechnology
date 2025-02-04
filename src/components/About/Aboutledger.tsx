@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const AboutLedgerline: React.FC = () => {
@@ -29,8 +30,8 @@ const AboutLedgerline: React.FC = () => {
             </p>
             <div className="flex items-center justify-end space-x-2 md:mt-2 mt-0">
               <Image src="/phone.png" alt="Call" width={20} height={20} />
-              <p className="text-black">Call For Help!</p>
-              <div className="flex items-center space-x-1">
+              <Link href="/contact" className="text-black">Call For Help!</Link>
+              <div className="flex items-center space-x-1 md:space-x-0">
                 <Image src="/callright.png" alt="Call Right" width={15} height={10} />
                 <Image src="/callright.png" alt="Call Right" width={15} height={10} />
               </div>
