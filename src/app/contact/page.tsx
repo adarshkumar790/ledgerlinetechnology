@@ -32,7 +32,7 @@ const ContactUs: React.FC = () => {
       </div>
 
       {/* Mobile Background Image */}
-      <div className="relative  md:block w-full h-[200px]">
+      <div className="relative md:hidden md:block w-full h-[200px]">
         <video 
           autoPlay 
           loop 
