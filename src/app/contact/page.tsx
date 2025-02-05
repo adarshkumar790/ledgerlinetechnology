@@ -8,7 +8,7 @@ const ContactUs: React.FC = () => {
     <>
       <Navbar />
 
-      {/* Desktop Background Video */}
+      
       <div className="relative hidden md:block md:w-full h-[300px]">
         <video 
           autoPlay 

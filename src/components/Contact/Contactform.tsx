@@ -1,5 +1,5 @@
 "use client";
-
+import { motion } from "framer-motion";
 import Image from 'next/image';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -49,21 +49,82 @@ const ContactForm: React.FC = () => {
             <p className="mb-6 md:text-2xl text-sm">
               We’d be delighted to connect with you! <br /> Complete the form, and we’ll get back <br /> to you at the earliest opportunity.
             </p>
-            <div className="space-y-4 ">
-              <div className="flex items-center space-x-3">
-                <Image src="/con1.png" alt="Call" width={20} height={20} />
-                <span className='text-xl'>91 2657964445</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Image src="/con2.png" alt="Email" width={20} height={20} />
-                <span className='text-xl'>contact@ledgerline.com</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Image src="/con3.png" alt="Address" width={20} height={20} />
-                <span className='text-xl'>901, Silver Samnway, Munjmauda, Akota, Vadodara 390020</span>
-              </div>
-            </div>
-          </div>
+            <div className="space-y-4">
+      {/* Phone */}
+      <motion.div
+        className="flex items-center space-x-3"
+        animate={{ color: ["#ffffff", "#ffcc00", "#ff5733", "#ffffff"] }}
+        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+      >
+        <motion.div
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [1, 0.7, 1],
+            filter: [
+              "invert(0%) hue-rotate(0deg)",
+              "invert(30%) hue-rotate(90deg)",
+              "invert(50%) hue-rotate(180deg)",
+              "invert(0%) hue-rotate(0deg)",
+            ],
+          }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <Image src="/con1.png" alt="Call" width={25} height={25} />
+        </motion.div>
+        <span className="text-xl">91 2657964445</span>
+      </motion.div>
+
+      {/* Email */}
+      <motion.div
+        className="flex items-center space-x-3"
+        animate={{ color: ["#ffffff", "#00ccff", "#ff00ff", "#ffffff"] }}
+        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+      >
+        <motion.div
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [1, 0.7, 1],
+            filter: [
+              "invert(0%) hue-rotate(0deg)",
+              "invert(40%) hue-rotate(120deg)",
+              "invert(60%) hue-rotate(240deg)",
+              "invert(0%) hue-rotate(0deg)",
+            ],
+          }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+        >
+          <Image src="/con2.png" alt="Email" width={25} height={25} />
+        </motion.div>
+        <span className="text-xl">contact@ledgerline.com</span>
+      </motion.div>
+
+      {/* Address */}
+      <motion.div
+        className="flex items-center space-x-3"
+        animate={{ color: ["#ffffff", "#33ff57", "#ff33aa", "#ffffff"] }}
+        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+      >
+        <motion.div
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [1, 0.7, 1],
+            filter: [
+              "invert(0%) hue-rotate(0deg)",
+              "invert(50%) hue-rotate(180deg)",
+              "invert(70%) hue-rotate(300deg)",
+              "invert(0%) hue-rotate(0deg)",
+            ],
+          }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+        >
+          <Image src="/con3.png" alt="Address" width={25} height={25} />
+        </motion.div>
+        <span className="text-xl">
+          901, Silver Samnway, Munjmauda, Akota, Vadodara 390020
+        </span>
+      </motion.div>
+    </div>
+      </div>
         </div>
 
       
