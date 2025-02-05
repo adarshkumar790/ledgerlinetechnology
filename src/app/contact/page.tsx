@@ -32,18 +32,10 @@ const ContactUs: React.FC = () => {
       </div>
 
       {/* Mobile Background Image */}
-      <div className="relative md:hidden md:block w-full h-[200px]">
-        <video 
-          autoPlay 
-          loop 
-          muted 
-          playsInline 
-          className="absolute inset-0 w-full h-[100%] object-cover"
-        >
-          <source src="/ledgerline.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      
+      <div 
+        className="relative block md:hidden w-full h-[140px] bg-cover bg-center"
+        style={{ backgroundImage: 'url("/contact.jpg")' }}
+      >
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-50/20 to-black/40"></div>
         
