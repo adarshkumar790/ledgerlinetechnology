@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FcSettings } from 'react-icons/fc';
 import { IoSettings } from 'react-icons/io5';
 import { IoClose } from 'react-icons/io5';
+import Link from 'next/link';
 
 interface Card {
   icon: string;
@@ -212,7 +213,7 @@ const Services: React.FC = () => {
   {filteredCards.map((card, index) => (
     <div
       key={index}
-      className="relative group hover:shadow-[#0411FF] hover:shadow-lg rounded-3xl p-1 flex flex-col items-center justify-center w-[75%] sm:w-[calc(50%-2rem)] lg:w-[340px]  md-w-[340px] h-80 mb-4 transition"
+      className="relative group hover:shadow-[#0411FF] hover:shadow-lg rounded-3xl p-1 flex flex-col items-center justify-center w-[75%] sm:w-[calc(50%-2rem)] lg:w-[340px] md:w-[340px] h-80 mb-4 transition"
     >
       <div className="flex-1 bg-[#717171] w-full flex items-center justify-center text-white rounded-t-3xl">
         <Image src={card.icon} alt={card.title} width={80} height={65} />
@@ -223,20 +224,36 @@ const Services: React.FC = () => {
           {card.number}
         </span>
 
-        <h3 className="text-xl font-bold  text-[#717171] group-hover:text-[#0411FF] text-left w-full">
+        <h3 className="text-xl font-bold text-[#717171] group-hover:text-[#0411FF] text-left w-full">
           {card.title}
         </h3>
-        <p className="md-text-xs text-[#000000]  text-left w-full font-light">
+        <p className="md-text-xs text-[#000000] text-left w-full font-light">
           {card.description}
         </p>
-        <button onClick={() => setSelectedCard(card)} className="mt-1 px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition self-end flex items-center gap-2">
-          Learn More
-          <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
-        </button>
+
+        {/* Buttons in One Row */}
+        <div className="flex justify-between w-full mt-4">
+          <Link href="/contact"><button 
+            onClick={() => setSelectedCard(card)}
+            className="px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition flex items-center gap-2"
+          >
+            Contact Us
+            <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
+          </button>
+          </Link>
+          <button
+            onClick={() => setSelectedCard(card)}
+            className="px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition flex items-center gap-2"
+          >
+            Learn More
+            <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
+          </button>
+        </div>
       </div>
     </div>
   ))}
 </div>
+
 
 {selectedCard && (
   <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">

@@ -27,8 +27,8 @@ const BlogCard: React.FC = () => {
         </div>
 
         {/* Content Section */}
-        <div className="flex flex-col justify-center bg-white md:p-2 pt-20 pl-2 pr-2 pb-8 shadow-lg relative lg:-left-28 lg:-mb-12 lg:z-10 mt-8 lg:w-5/7 text-black h-auto sm:mt-12 lg:mt-48">
-          <h2 className="font-bold mb-1 text-lg sm:text-xl">
+        <div className="flex flex-col rounded-xl  justify-center bg-white md:p-4 md:pl-6 pt-20 pl-2 pr-2 pb-8 shadow-lg relative lg:-left-28 lg:-mb-12 lg:z-10 mt-8 lg:w-5/7 text-black h-auto sm:mt-12 lg:mt-48">
+          <h2 className="font-bold mb-1 text-lg sm:text-xl ">
           Blockchain Solutions
           </h2>
           <p className="text-gray-700 mb-1 text-sm sm:text-bas"> 1. Custom Blockchain Solutions: Develop personalized blockchain networks for businesses. <br/> 2. Smart Contract Creation: Enable secure and automated workflow processes. <br/> 3. Decentralized Finance (DeFi) Solutions: Create platforms for decentralized financial ecosystems. <br/> 4. Tokenomics & Token Administration: Develop and manage blockchain-based tokens. <br/> 5. Blockchain Security Solutions: Implement advanced security measures to boost operational effectiveness. </p>

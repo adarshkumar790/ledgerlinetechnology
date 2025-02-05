@@ -5,7 +5,7 @@ const BlogCards2: React.FC = () => {
   return (
     <div className="bg-black text-white min-h-screen flex justify-center items-center py-10">
       <div className="grid lg:grid-cols-2 md:gap-4 gap-16 max-w-5xl mx-auto px-4 relative">
-        <div className="flex flex-col justify-center mt-12 lg:mt-48 lg:-mr-2 lg:ml-16 bg-white md:p-6 p-4 pb-16  shadow-lg relative md:z-10 z-10 w-full h-auto lg:w-5/7 lg:h-64">
+        <div className="flex flex-col justify-center mt-12 lg:mt-48 rounded-xl lg:-mr-2 lg:ml-16 bg-white md:p-6 p-4 pb-16  shadow-lg relative md:z-10 z-10 w-full h-auto lg:w-5/7 lg:h-64">
           <h2 className="font-bold text-black mb-4 text-lg lg:text-xl">
             IT Management System
           </h2>

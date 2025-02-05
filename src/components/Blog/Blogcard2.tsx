@@ -27,7 +27,7 @@ const BlogCard2: React.FC = () => {
         </div>
 
         {/* Content Section */}
-        <div className="flex flex-col justify-center bg-white md:p-6 pt-20 pl-2 pr-2 pb-8 shadow-lg relative lg:-left-28 lg:-mb-12 lg:z-10 mt-8 lg:w-5/7 text-black h-auto sm:mt-12 lg:mt-48">
+        <div className="flex flex-col justify-center bg-white rounded-xl md:p-6 pt-20 pl-2 pr-2 pb-8 shadow-lg relative lg:-left-28 lg:-mb-12 lg:z-10 mt-8 lg:w-5/7 text-black h-auto sm:mt-12 lg:mt-48">
           <h2 className="font-bold mb-4 text-lg sm:text-xl">
           Web Development
           </h2>
