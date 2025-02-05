@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const BlogCard2: React.FC = () => {
   return (
-    <div className="bg-black text-white min-h-screen flex justify-center items-center py-10">
+    <div id="web" className="bg-black text-white min-h-screen flex justify-center items-center py-10">
       <div className="grid lg:grid-cols-2 gap-6 max-w-5xl mx-auto px-4 relative">
         {/* Image Section */}
         <div className="relative">
