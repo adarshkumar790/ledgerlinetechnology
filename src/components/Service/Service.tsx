@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const Serproject: FC = () => {
   return (
-    <div className="bg-black min-h-screen flex flex-col items-center justify-center px-6 py-12 ">
+    <div id="blockchain" className="bg-black min-h-screen flex flex-col items-center justify-center px-6 py-12 ">
       
       <h2 className="text-white text-4xl font-bold mb-4">Services</h2>
       <p className="text-white text-lg mb-12">
