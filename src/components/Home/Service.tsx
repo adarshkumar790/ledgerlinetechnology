@@ -236,10 +236,10 @@ const Services: React.FC = () => {
   <Link href="/contact">
     <button 
       onClick={() => setSelectedCard(card)}
-      className="px-4 py-1 text-[#000000] md:text-sm text-xs rounded-lg hover:bg-slate-800 transition flex items-center  animate-blink"
+      className="px-1 py-1  text-white  gap-1 bg-gray-600 md:text-sm text-xs rounded-lg hover:bg-slate-800 transition flex items-center  animate-blink"
     >
       Contact Us
-      <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
+      <Image src="/co.png" alt="Arrow" width={15} height={15}  className='text-white'/>
     </button>
   </Link>
   <button
