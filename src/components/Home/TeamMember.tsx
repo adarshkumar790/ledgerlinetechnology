@@ -8,7 +8,7 @@ const teamData = [
     name: 'Dipak Patel',
     title: 'CEO',
     description: 'Leading the strategic vision, Dipak drives the company towards innovation and excellence, ensuring long-term growth and success.',
-    image: '/profile1.png',
+    image: '/mayanks.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/tw.png',
@@ -20,7 +20,7 @@ const teamData = [
     name: 'Rishabh Yadav',
     title: 'COO',
     description: 'Overseeing daily operations and ensuring exceptional project delivery, Rishabh ensures seamless execution and customer satisfaction.',
-    image: '/rish.png',
+    image: '/rishabhs.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/tw.png',
@@ -33,7 +33,7 @@ const teamData = [
     name: 'Mayank Kumar',
     title: 'Sr Blockchain Developer',
     description: 'A Senior Developer, excels in blockchain technology, crafting secure and scalable decentralized solutions.',
-    image: '/profile1.png',
+    image: '/mayanks.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/tw.png',
@@ -60,7 +60,7 @@ const teamData = [
     name: 'Sneha Chouhan',
     title: 'UIUX designer',
     description: 'UI/UX Designer focused on creating intuitive, user-friendly, and visually engaging digital experiences through research, prototyping, and collaboration.',
-    image: '/sn.png',
+    image: '/mayanks.png',
     social: {
       linkedin: '/ln.png',
       linkdinlink:'https://www.linkedin.com/in/sc2401/',
@@ -74,7 +74,7 @@ const teamData = [
     name: 'Mital Gohil',
     title: 'Accountant',
     description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis.',
-    image: '/mittal.png',
+    image: '/mital.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/tw.png',
@@ -86,12 +86,24 @@ const teamData = [
     name: 'Dhara Gohil',
     title: 'Accountant',
     description: 'Detail-oriented Accountant with expertise in managing financial records, ensuring accuracy, and supporting business decisions through financial analysis.',
-    image: '/dhar.png',
+    image: '/dhara.png',
     social: {
       linkedin: '/ln.png',
       twitter: '/tw.png',
       facebook: '/fa.png',
       
+    },
+  },
+  {
+    id: 6,
+    name: 'Shailyarajsinh Mahida',
+    title: 'Fullstack Developer',
+    description: 'Full-Stack Developer skilled in React, Node.js, and MongoDB, building scalable and efficient web applications.',
+    image: '/shailya.png',
+    social: {
+      linkedin: '/ln.png',
+      twitter: '/tw.png',
+      facebook: '/fa.png',
     },
   },
  
@@ -135,8 +147,8 @@ const TeamMembers: React.FC = () => {
         <div className="absolute -bottom-110 left-[15%] flex space-x-8">
           {visibleTeamMembers.map((member) => (
             <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-72 shadow-lg">
-              <img src={member.image} alt={member.name} 
-                className={`${member.id === 4 ? 'w-40 ml-16 mt-1' : member.id === 1 ? 'w-56 ml-8' : member.id === 1 ? 'w-30 ml-20' : member.id === 3 ? 'w-40 ml-20' : member.id === 2 ? 'w-48 mr-8' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
+              <Image src={member.image} alt={member.name}  width={160} height={160} className='ml-16'
+                // className={`${member.id === 4 ? 'w-40 ml-16 mt-1' : member.id === 1 ? 'w-80 ml-8' : member.id === 1 ? 'w-30 ml-20' : member.id === 3 ? 'w-40 ml-20' : member.id === 2 ? 'w-96' : member.id === 7 ? 'w-40 ml-12' : member.id === 5 ? 'w-60 ml-8' : 'w-60'} h-40 object-cover`} 
               />
               <div className="relative -mt-4 z-10">
                 <div className="h-16 bg-white transform skew-y-[-12deg]" />
@@ -180,8 +192,8 @@ const TeamMembers: React.FC = () => {
           <div className="relative -mt-12 w-full flex space-x-1 overflow-hidden">
             {visibleTeamMembers.map((member) => (
               <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
-                <img src={member.image} alt={member.name} 
-                 className={`${member.id === 4 ? 'w-40 ml-4 mt-1'  : member.id === 2 ? 'w-34 -ml-6' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
+                <Image src={member.image} alt={member.name}  width={30} height={30}
+                //  className={`${member.id === 4 ? 'w-40 ml-4 mt-1'  : member.id === 2 ? 'w-34 -ml-6' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
                 
                  />
                 <div className="relative -mt-4 z-10">

@@ -41,7 +41,7 @@ const ContactUs: React.FC = () => {
         
         {/* Blurred Light Effects */}
         <div className="absolute inset-0">
-          <div className="absolute w-[150px] h-[150px] bg-blue-400 opacity-30 rounded-full blur-[75px] top-5 left-5"></div>
+          <div className="absolute w-[150px] h-[150px] bg-blue-400 opacity-30 rounded-full blur-[75px]  left-5"></div>
           <div className="absolute w-[100px] h-[100px] bg-purple-400 opacity-30 rounded-full blur-[60px] bottom-5 right-5"></div>
         </div>
       </div>
