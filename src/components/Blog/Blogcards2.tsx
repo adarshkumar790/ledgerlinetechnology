@@ -11,7 +11,10 @@ const BlogCards2: React.FC = () => {
           </h2>
           <p className="text-gray-700 mb-6 text-sm sm:text-base"> 1. End-to-end IT infrastructure management. <br/> 
           2. Ongoing maintenance and support for smooth operations. <br/> 
-          3. Cloud-driven IT solutions tailored to meet modern business requirements. </p>
+          3. Cloud-driven IT solutions tailored to meet modern business requirements. <br/>
+          4.Scalable and secure network solutions for enhanced connectivity. <br/>
+          5.Data backup, recovery, and disaster management services.
+          </p>
           {/* <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 self-start lg:self-end hover:bg-blue-700">
             Read More
             <span className="ml-2">

@@ -7,16 +7,18 @@ const BlogCards: React.FC = () => {
       <div className="grid lg:grid-cols-2 md:gap-4 gap-16 max-w-5xl mx-auto px-4 relative">
 
         {/* Text Section */}
-        <div className="flex flex-col justify-center mt-12 rounded-xl lg:mt-48 lg:-mr-2 lg:ml-16 bg-white md:p-6 p-4 pb-16  shadow-lg relative md:z-10 z-10 w-full h-auto lg:w-5/7 lg:h-64">
+        <div className="flex flex-col justify-center mt-12 rounded-xl lg:mt-48 lg:-mr-2 lg:ml-16 bg-white md:p-6 p-4 pb-16  shadow-lg relative md:z-10 z-10 w-full h-auto lg:w-5/7 lg:h-72">
           <h2 className="font-bold text-black mb-2 mt-2 text-lg lg:text-xl">
             App Development
-          </h2>
-          Here’s the rephrased version of this text:
-
+          </h2>          
           <p className="text-gray-700 mb-6 text-sm sm:text-base">
           1.Tailored mobile applications for both Android and iOS. <br/>
           2.Cross-platform solutions offering exceptional functionality. <br/>
-          3.Scalable apps built to enhance user engagement and improve business efficiency.
+          3.Scalable apps built to enhance user engagement and improve business efficiency. <br/>
+          4.Intuitive and user-friendly UI/UX design for seamless navigation. <br/>
+          5.Integration with cutting-edge technologies like AI, AR/VR, and blockchain. <br/>
+          {/* 6.Secure and reliable applications with robust data protection. <br/> */}
+ 
           </p>
           {/* <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 self-start lg:self-end hover:bg-blue-700">
             Read More

@@ -32,7 +32,11 @@ const BlogCard2: React.FC = () => {
           Web Development
           </h2>
           <p className="text-gray-700 mb-6 text-sm sm:text-base"> 1.Fast and responsive websites for optimal performance. <br/> 2.E-commerce platforms with seamless, advanced integrations.
-           <br/> 3.SEO-focused solutions designed for increased visibility and business growth. </p>
+           <br/> 3.SEO-focused solutions designed for increased visibility and business growth.<br/>
+           4.Mobile-friendly and fully optimized for all devices. <br/>
+           5.Secure and scalable web applications with top-notch data protection.
+            </p>
+           
           {/* <button className="flex items-center bg-[#0411FF] text-white px-4 py-2 mt-auto self-end md:self-start hover:bg-blue-700">
             Read More
             <span className="ml-2">
