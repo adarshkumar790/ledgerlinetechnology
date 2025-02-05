@@ -67,7 +67,7 @@ const ContactForm: React.FC = () => {
         </div>
 
       
-        <div className="relative z-10 bg-white md:-mt-0 -mt-96 md:top-0 top-8 p-6 w-[78%] md:w-[28%] max-w-md ml-auto md:mr-32 mr-9  shadow-lg rounded-2xl overflow-hidden">
+        <div className="relative z-10 bg-white md:-mt-4 -mt-96 md:top-0 top-8 p-6 md:h-[80%] w-[78%] md:w-[40%] max-w-md ml-auto md:mr-32 mr-9  shadow-lg rounded-2xl overflow-hidden">
           <h2 className="text-xl font-semibold text-[#000000] mb-4">Send us a message</h2>
           <form ref={form} onSubmit={sendEmail} className="space-y-1">
             <div>
