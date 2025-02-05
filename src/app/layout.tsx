@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ledgerline Technology",
+  title: "LedgerLine Technologies",
   description: "Ledgerline is a leading blockchain and software development company in Vadodara, Gujarat, providing innovative technology solutions tailored to your needs.",
   keywords: [
     "blockchain company",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "Gujarat blockchain solutions",
     "custom software development",
     "blockchain development services",
-    "Ledgerline technology",
+    "LedgerLine technologies",
   ],
   openGraph: {
     type: "website",
