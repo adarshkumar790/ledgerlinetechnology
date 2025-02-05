@@ -192,7 +192,7 @@ const TeamMembers: React.FC = () => {
           <div className="relative -mt-12 w-full flex space-x-1 overflow-hidden">
             {visibleTeamMembers.map((member) => (
               <div key={member.id} className="bg-[#83868A] text-black overflow-hidden w-40 shadow-lg rounded-lg">
-                <Image src={member.image} alt={member.name}  width={30} height={30}
+                <Image src={member.image} alt={member.name}  width={130} height={130} className='ml-4'
                 //  className={`${member.id === 4 ? 'w-40 ml-4 mt-1'  : member.id === 2 ? 'w-34 -ml-6' : member.id === 7 ? 'w-36 ml-6' : member.id === 5 ? 'w-44 -mb-4' : 'w-44'} h-40 object-cover`}
                 
                  />
