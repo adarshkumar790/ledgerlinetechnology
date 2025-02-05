@@ -233,22 +233,24 @@ const Services: React.FC = () => {
 
         {/* Buttons in One Row */}
         <div className="flex justify-between w-full mt-4">
-          <Link href="/contact"><button 
-            onClick={() => setSelectedCard(card)}
-            className="px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition flex items-center gap-2"
-          >
-            Contact Us
-            <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
-          </button>
-          </Link>
-          <button
-            onClick={() => setSelectedCard(card)}
-            className="px-4 py-1 text-[#000000] rounded-lg hover:bg-slate-800 transition flex items-center gap-2"
-          >
-            Learn More
-            <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
-          </button>
-        </div>
+  <Link href="/contact">
+    <button 
+      onClick={() => setSelectedCard(card)}
+      className="px-4 py-1 text-[#000000] md:text-sm text-xs rounded-lg hover:bg-slate-800 transition flex items-center  animate-blink"
+    >
+      Contact Us
+      <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
+    </button>
+  </Link>
+  <button
+    onClick={() => setSelectedCard(card)}
+    className="px-4 py-1 text-[#000000] md:text-sm text-xs  rounded-lg hover:bg-slate-800 transition flex items-center"
+  >
+    Learn More
+    <Image src="/servicearrow.png" alt="Arrow" width={20} height={20} />
+  </button>
+</div>
+
       </div>
     </div>
   ))}
