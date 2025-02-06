@@ -41,7 +41,7 @@ const Achievement = () => {
               className="inline-block align-middle"
             />
             <span className="text-5xl font-bold text-white  leading-none align-middle">
-              5+
+              2+
             </span>
           </div>
           <p className="uppercase font-[36px] text-white">Year of Experience</p>

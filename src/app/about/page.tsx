@@ -56,7 +56,7 @@ const Banner: React.FC = () => {
             <div className="flex items-center space-x-4 md:space-x-10">
               {/* Hide image on mobile (default) and show on medium screens and above (md:block) */}
               <img src="/exp.png" alt="Years of Experience" className="w-8 h-8 md:w-10 md:h-10 hidden md:block" />
-              <p className="text-2xl md:text-5xl font-bold">5+</p>
+              <p className="text-2xl md:text-5xl font-bold">2+</p>
             </div>
             <p className="mt-1 text-sm md:text-base">YEAR OF EXPERIENCE</p>
           </div>
