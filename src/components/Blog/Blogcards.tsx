@@ -38,7 +38,7 @@ const BlogCards: React.FC = () => {
             className="object-cover w-full lg:w-[700px] h-auto"
           />
 
-          <div className="absolute top-1/2 md:mt-44 -mt-44 transform -translate-y-1/2 z-10 right-17 md:w-[180px] w-[190px] h-[160px] lg:top-60 lg:ml-8 right-20 lg:right-16">
+          <div className="absolute top-1/2 md:mt-44 -mt-48 transform -translate-y-1/2 z-10 right-17 md:w-[180px] w-[190px] h-[160px] lg:top-60 lg:ml-8 right-20 lg:right-16">
             <Image
               src="/appde2.png"
               alt="Handshake"
