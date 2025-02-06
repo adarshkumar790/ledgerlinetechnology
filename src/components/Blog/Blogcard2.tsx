@@ -15,7 +15,7 @@ const BlogCard2: React.FC = () => {
             className="object-cover w-full h-auto"
           />
 
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:translate-y-0 lg:top-auto lg:bottom-[-14%] lg:left-1/2 lg:transform lg:-translate-x-1/2 w-48 h-20 mt-28 md:-mb-4  sm:w-40 sm:h-32 md:w-44 md:h-44 lg:w-140 lg:h-120 z-10">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:translate-y-0 lg:top-auto lg:bottom-[-14%] lg:left-1/2 lg:transform lg:-translate-x-1/2 w-48 h-20 mt-28 md:-mb-6  sm:w-40 sm:h-32 md:w-44 md:h-44 lg:w-140 lg:h-120 z-10">
             <Image
               src="/web2.png"
               alt="Handshake"
@@ -28,10 +28,10 @@ const BlogCard2: React.FC = () => {
 
         {/* Content Section */}
         <div className="flex flex-col justify-center bg-white rounded-xl md:p-6 pt-20 pl-2 pr-2 pb-8 shadow-lg relative lg:-left-28 lg:-mb-12 lg:z-10 mt-8 lg:w-5/7 text-black h-auto sm:mt-12 lg:mt-48">
-          <h2 className="font-bold mb-4 text-lg sm:text-xl">
+          <h2 className="font-bold mb-2 text-lg sm:text-xl">
           Web Development
           </h2>
-          <p className="text-gray-700 mb-6 text-sm sm:text-base"> 1.Fast and responsive websites for optimal performance. <br/> 2.E-commerce platforms with seamless, advanced integrations.
+          <p className="text-gray-700 text-sm sm:text-base"> 1.Fast and responsive websites for optimal performance. <br/> 2.E-commerce platforms with seamless, advanced integrations.
            <br/> 3.SEO-focused solutions designed for increased visibility and business growth.<br/>
            4.Mobile-friendly and fully optimized for all devices. <br/>
            5.Secure and scalable web applications with top-notch data protection.
