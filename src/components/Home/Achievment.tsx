@@ -21,10 +21,10 @@ const Achievement = () => {
               className="inline-block align-middle"
             />
             <div className="text-5xl font-bold text-white leading-none align-middle">
-              95%
+              30+
             </div>
           </div>
-          <p className="uppercase font-[36px] text-white">Project Launchpad</p>
+          <p className="uppercase font-[36px] text-white">Project Completed</p>
         </div>
 
         
@@ -64,7 +64,7 @@ const Achievement = () => {
               90%
             </div>
           </div>
-          <p className="uppercase font-[36px] text-white">Client Rotation</p>
+          <p className="uppercase font-[36px] text-white">Client retention</p>
         </div>
       </div>
     </div>
