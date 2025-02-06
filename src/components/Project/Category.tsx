@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 
-const categories = ["All", "Crypto Wallet", "Exchange", "NFTs", "Dapp", "DeFi"];
+const categories = ["All", "Crypto Wallet", "Exchange", "NFTs", "Web", "App", "IT Management"];
 
 const projects = [
   {
