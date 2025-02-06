@@ -24,7 +24,7 @@ const Achievement = () => {
               30+
             </div>
           </div>
-          <p className="uppercase font-[36px] text-white">Project Completed</p>
+          <p className="uppercase font-[36px] text-white">Projects Completed</p>
         </div>
 
         

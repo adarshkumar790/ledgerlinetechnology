@@ -24,7 +24,7 @@ const BlogCards2: React.FC = () => {
         </div>
         <div className="relative flex justify-center items-center lg:mr-28 lg:-ml-20">
           <Image
-            src="/it.png"
+            src="/its.jpg"
             alt="Team Meeting"
             width={700}
             height={500}

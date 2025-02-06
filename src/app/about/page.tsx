@@ -45,7 +45,7 @@ const Banner: React.FC = () => {
               <img src="/plp.png" alt="Client Retention" className="w-8 h-8 md:w-10 md:h-10 hidden md:block" />
               <p className="text-2xl md:text-5xl font-bold">30+</p>
             </div>
-            <p className="mt-1 text-sm md:text-base">PROJECT COMPLETED</p>
+            <p className="mt-1 text-sm md:text-base">PROJECTS COMPLETED</p>
           </div>
 
           {/* Divider */}
