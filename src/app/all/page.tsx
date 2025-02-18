@@ -1,6 +1,13 @@
+
+
 "use client";
 import React from "react";
 import {  FaTwitter, FaInstagram, FaTelegram } from "react-icons/fa";
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: "All"
+}
+
 
 const ComingSoon: React.FC = () => {
   return (

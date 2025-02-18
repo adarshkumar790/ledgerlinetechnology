@@ -5,6 +5,11 @@ import Serproject from '@/components/Service/Service';
 import Image from 'next/image';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: "Service"
+}
+
 
 export default function Services() {
   return (

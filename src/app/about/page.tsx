@@ -4,6 +4,12 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: "About"
+}
+
+
 const Banner: React.FC = () => {
   return (
     <>

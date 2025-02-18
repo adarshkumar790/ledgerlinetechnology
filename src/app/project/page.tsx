@@ -3,6 +3,11 @@ import Navbar from "@/components/Navbar";
 import Category from "@/components/Project/Category";
 import Image from "next/image";
 import React from "react";
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: "Project"
+}
+
 
 const Home: React.FC = () => {
   return (

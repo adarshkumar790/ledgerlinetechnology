@@ -5,6 +5,11 @@ import BlogCards2 from "@/components/Blog/Blogcards2";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: "Blog"
+}
+
 
 const BlogSection: React.FC = () => {
   return (
