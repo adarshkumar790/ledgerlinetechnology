@@ -17,11 +17,10 @@ const BlogSection: React.FC = () => {
     <Navbar/>
     <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
-        {/* Blog Title */}
         <h2 className="text-5xl font-bold tracking-tight text-[#000000]">
           Blog
         </h2>
-        {/* Divider */}
+
         <div className="mt-2 border-t-2 border-gray-400 w-16 mx-auto" />
         {/* Blog Description */}
         <p className="mt-4 text-lg text-[#000000]">
